@@ -1,0 +1,8 @@
+C:\Users\avelez\source\repos\CinemaToon\CinemaToon\CinemaToon.Movies.Application.Core\bin\Debug\netcoreapp3.0\CinemaToon.Movies.Application.Core.deps.json
+C:\Users\avelez\source\repos\CinemaToon\CinemaToon\CinemaToon.Movies.Application.Core\bin\Debug\netcoreapp3.0\CinemaToon.Movies.Application.Core.dll
+C:\Users\avelez\source\repos\CinemaToon\CinemaToon\CinemaToon.Movies.Application.Core\bin\Debug\netcoreapp3.0\CinemaToon.Movies.Application.Core.pdb
+C:\Users\avelez\source\repos\CinemaToon\CinemaToon\CinemaToon.Movies.Application.Core\obj\Debug\netcoreapp3.0\CinemaToon.Movies.Application.Core.csprojAssemblyReference.cache
+C:\Users\avelez\source\repos\CinemaToon\CinemaToon\CinemaToon.Movies.Application.Core\obj\Debug\netcoreapp3.0\CinemaToon.Movies.Application.Core.AssemblyInfoInputs.cache
+C:\Users\avelez\source\repos\CinemaToon\CinemaToon\CinemaToon.Movies.Application.Core\obj\Debug\netcoreapp3.0\CinemaToon.Movies.Application.Core.AssemblyInfo.cs
+C:\Users\avelez\source\repos\CinemaToon\CinemaToon\CinemaToon.Movies.Application.Core\obj\Debug\netcoreapp3.0\CinemaToon.Movies.Application.Core.dll
+C:\Users\avelez\source\repos\CinemaToon\CinemaToon\CinemaToon.Movies.Application.Core\obj\Debug\netcoreapp3.0\CinemaToon.Movies.Application.Core.pdb

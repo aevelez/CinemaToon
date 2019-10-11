@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "CinemaToon.Utilities.Abstractions/1.0.0": {
+        "runtime": {
+          "CinemaToon.Utilities.Abstractions.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CinemaToon.Utilities.Abstractions/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

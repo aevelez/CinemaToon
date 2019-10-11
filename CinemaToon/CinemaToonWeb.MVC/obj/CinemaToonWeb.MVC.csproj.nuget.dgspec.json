@@ -1,0 +1,292 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\avelez\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToonWeb.MVC\\CinemaToonWeb.MVC.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\avelez\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.Entities\\CinemaToon.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\avelez\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.Entities\\CinemaToon.Entities.csproj",
+        "projectName": "CinemaToon.Entities",
+        "projectPath": "C:\\Users\\avelez\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.Entities\\CinemaToon.Entities.csproj",
+        "packagesPath": "C:\\Users\\avelez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\avelez\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\avelez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\avelez\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.Utilities.Abstractions\\CinemaToon.Utilities.Abstractions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\avelez\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.Utilities.Abstractions\\CinemaToon.Utilities.Abstractions.csproj",
+        "projectName": "CinemaToon.Utilities.Abstractions",
+        "projectPath": "C:\\Users\\avelez\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.Utilities.Abstractions\\CinemaToon.Utilities.Abstractions.csproj",
+        "packagesPath": "C:\\Users\\avelez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\avelez\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.Utilities.Abstractions\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\avelez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\avelez\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.Entities\\CinemaToon.Entities.csproj": {
+                "projectPath": "C:\\Users\\avelez\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.Entities\\CinemaToon.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\avelez\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.Utilities.Helpers\\CinemaToon.Utilities.Helpers.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\avelez\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.Utilities.Helpers\\CinemaToon.Utilities.Helpers.csproj",
+        "projectName": "CinemaToon.Utilities.Helpers",
+        "projectPath": "C:\\Users\\avelez\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.Utilities.Helpers\\CinemaToon.Utilities.Helpers.csproj",
+        "packagesPath": "C:\\Users\\avelez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\avelez\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.Utilities.Helpers\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\avelez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\avelez\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.Utilities.Abstractions\\CinemaToon.Utilities.Abstractions.csproj": {
+                "projectPath": "C:\\Users\\avelez\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.Utilities.Abstractions\\CinemaToon.Utilities.Abstractions.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
+            },
+            "Polly": {
+              "target": "Package",
+              "version": "[7.1.0, )"
+            },
+            "Polly.Extensions.Http": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\avelez\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToonWeb.MVC\\CinemaToonWeb.MVC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\avelez\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToonWeb.MVC\\CinemaToonWeb.MVC.csproj",
+        "projectName": "CinemaToonWeb.MVC",
+        "projectPath": "C:\\Users\\avelez\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToonWeb.MVC\\CinemaToonWeb.MVC.csproj",
+        "packagesPath": "C:\\Users\\avelez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\avelez\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToonWeb.MVC\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\avelez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\avelez\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.Entities\\CinemaToon.Entities.csproj": {
+                "projectPath": "C:\\Users\\avelez\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.Entities\\CinemaToon.Entities.csproj"
+              },
+              "C:\\Users\\avelez\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.Utilities.Abstractions\\CinemaToon.Utilities.Abstractions.csproj": {
+                "projectPath": "C:\\Users\\avelez\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.Utilities.Abstractions\\CinemaToon.Utilities.Abstractions.csproj"
+              },
+              "C:\\Users\\avelez\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.Utilities.Helpers\\CinemaToon.Utilities.Helpers.csproj": {
+                "projectPath": "C:\\Users\\avelez\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.Utilities.Helpers\\CinemaToon.Utilities.Helpers.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Http.Polly": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.9.5, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

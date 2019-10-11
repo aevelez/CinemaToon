@@ -1,0 +1,8 @@
+C:\Users\avelez\source\repos\CinemaToon\CinemaToon\CinemaToon.Booking.Application.Core\bin\Debug\netcoreapp3.0\CinemaToon.Booking.Application.Core.deps.json
+C:\Users\avelez\source\repos\CinemaToon\CinemaToon\CinemaToon.Booking.Application.Core\bin\Debug\netcoreapp3.0\CinemaToon.Booking.Application.Core.dll
+C:\Users\avelez\source\repos\CinemaToon\CinemaToon\CinemaToon.Booking.Application.Core\bin\Debug\netcoreapp3.0\CinemaToon.Booking.Application.Core.pdb
+C:\Users\avelez\source\repos\CinemaToon\CinemaToon\CinemaToon.Booking.Application.Core\obj\Debug\netcoreapp3.0\CinemaToon.Booking.Application.Core.csprojAssemblyReference.cache
+C:\Users\avelez\source\repos\CinemaToon\CinemaToon\CinemaToon.Booking.Application.Core\obj\Debug\netcoreapp3.0\CinemaToon.Booking.Application.Core.AssemblyInfoInputs.cache
+C:\Users\avelez\source\repos\CinemaToon\CinemaToon\CinemaToon.Booking.Application.Core\obj\Debug\netcoreapp3.0\CinemaToon.Booking.Application.Core.AssemblyInfo.cs
+C:\Users\avelez\source\repos\CinemaToon\CinemaToon\CinemaToon.Booking.Application.Core\obj\Debug\netcoreapp3.0\CinemaToon.Booking.Application.Core.dll
+C:\Users\avelez\source\repos\CinemaToon\CinemaToon\CinemaToon.Booking.Application.Core\obj\Debug\netcoreapp3.0\CinemaToon.Booking.Application.Core.pdb

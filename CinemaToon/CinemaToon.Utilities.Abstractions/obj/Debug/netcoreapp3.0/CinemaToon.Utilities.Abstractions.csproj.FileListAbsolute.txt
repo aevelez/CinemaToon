@@ -1,0 +1,8 @@
+C:\Users\avelez\source\repos\CinemaToon\CinemaToon\CinemaToon.Utilities.Abstractions\bin\Debug\netcoreapp3.0\CinemaToon.Utilities.Abstractions.deps.json
+C:\Users\avelez\source\repos\CinemaToon\CinemaToon\CinemaToon.Utilities.Abstractions\bin\Debug\netcoreapp3.0\CinemaToon.Utilities.Abstractions.dll
+C:\Users\avelez\source\repos\CinemaToon\CinemaToon\CinemaToon.Utilities.Abstractions\bin\Debug\netcoreapp3.0\CinemaToon.Utilities.Abstractions.pdb
+C:\Users\avelez\source\repos\CinemaToon\CinemaToon\CinemaToon.Utilities.Abstractions\obj\Debug\netcoreapp3.0\CinemaToon.Utilities.Abstractions.csprojAssemblyReference.cache
+C:\Users\avelez\source\repos\CinemaToon\CinemaToon\CinemaToon.Utilities.Abstractions\obj\Debug\netcoreapp3.0\CinemaToon.Utilities.Abstractions.AssemblyInfoInputs.cache
+C:\Users\avelez\source\repos\CinemaToon\CinemaToon\CinemaToon.Utilities.Abstractions\obj\Debug\netcoreapp3.0\CinemaToon.Utilities.Abstractions.AssemblyInfo.cs
+C:\Users\avelez\source\repos\CinemaToon\CinemaToon\CinemaToon.Utilities.Abstractions\obj\Debug\netcoreapp3.0\CinemaToon.Utilities.Abstractions.dll
+C:\Users\avelez\source\repos\CinemaToon\CinemaToon\CinemaToon.Utilities.Abstractions\obj\Debug\netcoreapp3.0\CinemaToon.Utilities.Abstractions.pdb

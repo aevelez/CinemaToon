@@ -1,0 +1,111 @@
+﻿@model CinemaToon.Web.MVC.ViewModels.MovieDetailViewModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+@if (ViewContext.ModelState.IsValid == false)
+{
+    <div class="alert alert-danger">
+        <strong>Error</strong>
+        <div asp-validation-summary="All" class="danger"></div>
+    </div>
+}
+
+<div>
+    <form method="post" class="container">
+        <br />
+        <div class="row">
+            <div class="col-md-3">
+                <img class=" img" src="@Url.Content(Model.Movie.FullPosterPath)" />
+            </div>
+            <div class="col-md-9">
+
+                <div class="row">
+                    <div class="col-md-3">
+
+                        <label asp-for="Movie.OriginalTitle"></label>
+
+                    </div>
+                    <div class="col-md-6">
+                        @Model.Movie.OriginalTitle
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+                        <label asp-for="Movie.VoteAverage"></label>
+                    </div>
+                    <div class="col-md-6">
+                        @Model.Movie.VoteAverage
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+                        <label asp-for="Movie.OriginalLanguage"></label>
+                    </div>
+                    <div class="col-md-6">
+                        @Model.Movie.OriginalLanguage
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+                        <label asp-for="Movie.Overview"></label>
+                    </div>
+                    <div class="col-md-6">
+                        @Model.Movie.Overview
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="col-md-3">
+                        <label asp-for="Movie.ReleaseDate"></label>
+                    </div>
+                    <div class="col-md-6">
+                        @Model.Movie.ReleaseDate
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="clearfix">&nbsp;</div>
+
+        <div class="panel panel-default">
+            <!-- Default panel contents -->
+            <div class="panel-heading ">Showtimes</div>
+            <div class="panel-body">
+               
+                @foreach (var cinemaFunction in Model.CinemaBooking)
+                {
+
+                    <div class="btn-group" role="group" aria-label="...">
+                        @if (cinemaFunction.AvailableSeats > 0)
+                        {
+
+                            <a class="btn btn-default" asp-action="Index" asp-controller="Booking"
+                               asp-route-movieId="@Model.Movie.Id"
+                               asp-route-cinemaFunctionId="@cinemaFunction.CinemaFuctionId">
+
+                                @cinemaFunction.FunctionDateTime
+                                <label class="text-success">@cinemaFunction.AvailableSeats Tickets</label>
+                            </a>
+                        }
+                        else
+                        {
+                            <a class="btn btn-danger">
+                                @cinemaFunction.FunctionDateTime
+                                0 Tickets
+                            </a>
+                        }
+                        <div class="clearfix">&nbsp;</div>
+                    </div>
+                }
+
+            </div>
+        </div>
+    </form>
+</div>
+<div>
+    <a asp-action="Index"><i class="glyphicon glyphicon-home"></i> Back to List</a>
+    
+</div>

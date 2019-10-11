@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "CinemaToon.Movies.Application.Core/1.0.0": {
+        "runtime": {
+          "CinemaToon.Movies.Application.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CinemaToon.Movies.Application.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

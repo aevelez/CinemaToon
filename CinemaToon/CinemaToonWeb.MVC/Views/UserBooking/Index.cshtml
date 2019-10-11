@@ -1,0 +1,44 @@
+﻿@model IEnumerable<CinemaToon.Entities.CinemaBooking.CinemaReservation>
+
+
+<h2>User bookings</h2>
+
+
+@if (!Model.Any())
+{
+    <p>There are not bookings to show</p>
+}
+else
+{
+    <table class="table table-bordered table-hover">
+        <thead>
+            <tr>
+                <th></th>
+                <th>Original Movie Title</th>
+                <th>Function DateTime</th>
+                <th>Total Paid</th>
+                <th>Total Tickets</th>
+
+            </tr>
+
+        </thead>
+        <tbody>
+            @foreach (var booking in Model)
+            {
+            <tr>
+                
+                <td> 
+                    <a asp-action="Details" asp-controller="UserBooking" asp-route-id="@booking.Id">Cancel</a> 
+                    <i class="glyphicon glyphicon-remove"></i>
+                </td>
+
+                <td>@booking.OriginalMovieTitle</td>
+                <td>@booking.CinemaFunction.FunctionDateTime</td>
+                <td> @String.Format("{0:C0}", Convert.ToInt32(booking.TotalPaid))</td>
+                <td>@booking.TotalTickets</td>
+            </tr>
+            }
+        </tbody>
+    </table>
+}
+

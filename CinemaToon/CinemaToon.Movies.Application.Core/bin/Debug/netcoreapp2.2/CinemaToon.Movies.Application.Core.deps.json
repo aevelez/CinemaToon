@@ -1,0 +1,49 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.2",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.2": {
+      "CinemaToon.Movies.Application.Core/1.0.0": {
+        "dependencies": {
+          "CinemaToon.Utilities.Abstractions": "1.0.0"
+        },
+        "runtime": {
+          "CinemaToon.Movies.Application.Core.dll": {}
+        }
+      },
+      "CinemaToon.Entities/1.0.0": {
+        "runtime": {
+          "CinemaToon.Entities.dll": {}
+        }
+      },
+      "CinemaToon.Utilities.Abstractions/1.0.0": {
+        "dependencies": {
+          "CinemaToon.Entities": "1.0.0"
+        },
+        "runtime": {
+          "CinemaToon.Utilities.Abstractions.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CinemaToon.Movies.Application.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CinemaToon.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CinemaToon.Utilities.Abstractions/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

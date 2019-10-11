@@ -1,0 +1,8 @@
+C:\Users\avelez\source\repos\CinemaToon\CinemaToon\CinemaToon.Utilities.Helpers\bin\Debug\netcoreapp3.0\CinemaToon.Utilities.Helpers.deps.json
+C:\Users\avelez\source\repos\CinemaToon\CinemaToon\CinemaToon.Utilities.Helpers\bin\Debug\netcoreapp3.0\CinemaToon.Utilities.Helpers.dll
+C:\Users\avelez\source\repos\CinemaToon\CinemaToon\CinemaToon.Utilities.Helpers\bin\Debug\netcoreapp3.0\CinemaToon.Utilities.Helpers.pdb
+C:\Users\avelez\source\repos\CinemaToon\CinemaToon\CinemaToon.Utilities.Helpers\obj\Debug\netcoreapp3.0\CinemaToon.Utilities.Helpers.csprojAssemblyReference.cache
+C:\Users\avelez\source\repos\CinemaToon\CinemaToon\CinemaToon.Utilities.Helpers\obj\Debug\netcoreapp3.0\CinemaToon.Utilities.Helpers.AssemblyInfoInputs.cache
+C:\Users\avelez\source\repos\CinemaToon\CinemaToon\CinemaToon.Utilities.Helpers\obj\Debug\netcoreapp3.0\CinemaToon.Utilities.Helpers.AssemblyInfo.cs
+C:\Users\avelez\source\repos\CinemaToon\CinemaToon\CinemaToon.Utilities.Helpers\obj\Debug\netcoreapp3.0\CinemaToon.Utilities.Helpers.dll
+C:\Users\avelez\source\repos\CinemaToon\CinemaToon\CinemaToon.Utilities.Helpers\obj\Debug\netcoreapp3.0\CinemaToon.Utilities.Helpers.pdb

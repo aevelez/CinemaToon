@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "CinemaToon.IdentityServer.Data.Context/1.0.0": {
+        "runtime": {
+          "CinemaToon.IdentityServer.Data.Context.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CinemaToon.IdentityServer.Data.Context/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

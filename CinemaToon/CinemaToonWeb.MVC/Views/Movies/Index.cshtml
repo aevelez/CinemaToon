@@ -1,0 +1,44 @@
+﻿@model CinemaToon.Web.MVC.ViewModels.MoviesViewModel
+
+
+<h2 class="page-header text-center text-capitalize">
+    Most popular movies
+</h2>
+
+
+@if (!Model.Movies.Any())
+{
+    <p>There are not movies to show</p>
+}
+else
+{
+    <div class="container">
+        @foreach (var movie in Model.Movies)
+        {
+
+        <div class="col-md-4 ">
+
+            <div class="panel panel-default">
+                <!-- Default panel contents -->
+                <div class="panel-heading ">
+                    <a asp-action="Details" class="h5 text-nowrap text-primary" asp-controller="Movies" asp-route-id="@movie.Id">@movie.OriginalTitle</a>
+                </div>
+                <div class="panel-body">                  
+                    <div class="row text-center">
+                        <a asp-action="Details" asp-controller="Movies" asp-route-id="@movie.Id">
+                            <img class="img" src="@Url.Content(movie.FullPosterPath)" />
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+                  
+
+
+
+                </div>
+                }
+
+            </div>
+            }
+

@@ -1,0 +1,36 @@
+﻿@model CinemaToon.Web.MVC.ViewModels.MoviesViewModel
+
+
+<h2>Movies</h2>
+
+
+@if (!Model.Movies.Any())
+{
+    <p>There are not movies to show</p>
+}
+else
+{
+    <table class="table table-bordered table-hover">
+        <thead>
+            <tr>
+                <th></th>
+                <th>Original Title</th>
+                <th>Original Language</th>
+
+            </tr>
+
+        </thead>
+        <tbody>
+            @foreach (var movie in Model.Movies)
+            {
+                <tr>
+
+                    <td> <a asp-action="Details" asp-controller="Movies" asp-route-id="@movie.Id">Details</a> </td>
+                    <td>@movie.OriginalTitle</td>
+                    <td>@movie.OriginalLanguage</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+

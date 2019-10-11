@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "CinemaToon.Utilities.Helpers/1.0.0": {
+        "runtime": {
+          "CinemaToon.Utilities.Helpers.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CinemaToon.Utilities.Helpers/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

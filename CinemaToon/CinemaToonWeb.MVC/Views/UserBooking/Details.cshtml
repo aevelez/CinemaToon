@@ -1,0 +1,101 @@
+﻿@model CinemaToon.Entities.CinemaBooking.CinemaReservation
+
+
+<h2>Booking</h2>
+@if (ViewContext.ModelState.IsValid == false)
+{
+    <div class="alert alert-danger">
+        <strong>Error</strong>
+        <div asp-validation-summary="All" class="danger"></div>
+    </div>
+}
+<div>
+    <hr />
+    <form method="post" class="container">
+
+        <div class="row">
+
+            <div class="row">
+                <div class="col-md-3">
+
+                    <label asp-for="@Model.OriginalMovieTitle"></label>
+
+                </div>
+                <div class="col-md-6">
+                    @Model.OriginalMovieTitle
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-3">
+
+                    <label>Refund</label>
+
+                </div>
+                <div class="col-md-6">
+                    @String.Format("{0:C0}", Convert.ToInt32(Model.TotalPaid))
+                </div>
+            </div>
+
+
+
+
+            <div class="row">
+                <div class="col-md-3">
+
+                    <label asp-for="TotalTickets"></label>
+
+                </div>
+                <div class="col-md-6">
+
+
+
+                    @Model.TotalTickets
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-3">
+
+                    <label asp-for="CinemaFunction.FunctionDateTime"></label>
+
+
+                </div>
+                <div class="col-md-6">
+
+                    @Model.CinemaFunction.FunctionDateTime
+                </div>
+            </div>
+        </div>
+        <div class="clearfix">&nbsp;</div>
+        <div class="clearfix">&nbsp;</div>
+        <div class="row">
+
+            <div class="row col-md-3">
+                <label class="text-info">Do you want to cancel?</label>
+            </div>
+
+
+            <div class="col-md-2">
+
+                <button formmethod="post" asp-action="Cancel" asp-route-id="@Model.Id"
+                        class="btn btn-danger" name="button">
+                    Yes
+                </button>
+
+                <a formmethod="post" asp-action="Index"
+                   class="btn btn-info" name="button">
+                    No
+                </a>
+            </div>
+        </div>
+
+
+    </form>
+
+</div>
+
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>

@@ -1,0 +1,8 @@
+C:\Users\avelez\source\repos\CinemaToon\CinemaToon\CinemaToon.Entities\bin\Debug\netcoreapp2.2\CinemaToon.Entities.deps.json
+C:\Users\avelez\source\repos\CinemaToon\CinemaToon\CinemaToon.Entities\bin\Debug\netcoreapp2.2\CinemaToon.Entities.dll
+C:\Users\avelez\source\repos\CinemaToon\CinemaToon\CinemaToon.Entities\bin\Debug\netcoreapp2.2\CinemaToon.Entities.pdb
+C:\Users\avelez\source\repos\CinemaToon\CinemaToon\CinemaToon.Entities\obj\Debug\netcoreapp2.2\CinemaToon.Entities.AssemblyInfoInputs.cache
+C:\Users\avelez\source\repos\CinemaToon\CinemaToon\CinemaToon.Entities\obj\Debug\netcoreapp2.2\CinemaToon.Entities.AssemblyInfo.cs
+C:\Users\avelez\source\repos\CinemaToon\CinemaToon\CinemaToon.Entities\obj\Debug\netcoreapp2.2\CinemaToon.Entities.dll
+C:\Users\avelez\source\repos\CinemaToon\CinemaToon\CinemaToon.Entities\obj\Debug\netcoreapp2.2\CinemaToon.Entities.pdb
+C:\Users\avelez\source\repos\CinemaToon\CinemaToon\CinemaToon.Entities\obj\Debug\netcoreapp2.2\CinemaToon.Entities.csprojAssemblyReference.cache

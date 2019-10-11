@@ -1,0 +1,83 @@
+﻿@model CinemaToon.Web.MVC.ViewModels.BookingViewModel
+
+@{
+    ViewData["Title"] = "Booking";
+}
+
+<h2>Movie @Model.OriginalTitle</h2>
+<div class="panel panel-default">
+    <!-- Default panel contents -->
+    <div class="panel-heading ">Confirm Purchase</div>
+    <div class="panel-body">
+
+        @if (ViewContext.ModelState.IsValid == false)
+        {
+            <div class="alert alert-danger">
+                <strong>Error</strong>
+                <div asp-validation-summary="All" class="danger"></div>
+            </div>
+        }
+
+        <div>
+           
+            <form method="post">
+                <div class="clearfix"></div>
+                <div class="row">
+                    <div class="col-md-2 ">
+                        <label asp-for="NumberOfTickets"></label>
+                    </div>
+                    <div class="col-md-2">
+                        <input readonly asp-for="NumberOfTickets" type="number" />
+                    </div>
+                    <div class="col-md-2 ">
+                        <label asp-for="PricePerTicket"></label>
+                    </div>
+                    <div class="col-md-2 text-info">
+                        @String.Format("{0:C0}", Convert.ToInt32(Model.PricePerTicket))
+                        <input type="hidden" asp-for="@Model.PricePerTicket">
+
+                    </div>
+
+                </div>
+                <div class="clearfix"></div>
+
+                <div class="row">
+                    <div class="col-md-2 ">
+                        <label asp-for="TotalPrice"></label>
+                    </div>
+
+
+                    <div class="col-md-2">
+                        <h3 class="text-danger">  @String.Format("{0:C0}", Convert.ToInt32(Model.TotalPrice))</h3>
+                    </div>
+
+                </div>
+                <input type="hidden" asp-for="AvailableSeats">
+                <input type="hidden" asp-for="OriginalTitle" />
+                <input type="hidden" asp-for="Id" />
+                <input type="hidden" asp-for="CinemaFuctionId" />
+                <input type="hidden" asp-for="TotalPrice" />
+
+                <div class="col-md-2">
+                    <button formmethod="post" asp-action="Reserver" asp-controller="Booking"
+                            class="btn btn-danger" name="button" value="register">
+                      <i class="glyphicon glyphicon-credit-card"></i>  Confirm and pay
+                    </button>
+                </div>
+
+            </form>
+        </div>
+
+    </div>
+</div>
+
+<div class="row clearfix">
+    <br />
+    <a asp-action="Details" asp-controller="Movies" asp-route-id="@Model.Id"><i class="glyphicon glyphicon-backward"></i> Back to Movie Detail</a>   
+</div>
+
+<div class="clearfix"></div>
+<div class="row clearfix">
+    <a asp-action="Index"><i class="glyphicon glyphicon-home"></i> Back to List</a>
+</div>
+
