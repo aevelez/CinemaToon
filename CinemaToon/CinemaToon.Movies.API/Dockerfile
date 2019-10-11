@@ -12,6 +12,7 @@ COPY ["CinemaToon.Movies.API/CinemaToon.Movies.API.csproj", "CinemaToon.Movies.A
 COPY ["CinemaToon.Utilities.Helpers/CinemaToon.Utilities.Helpers.csproj", "CinemaToon.Utilities.Helpers/"]
 COPY ["CinemaToon.Utilities.Abstractions/CinemaToon.Utilities.Abstractions.csproj", "CinemaToon.Utilities.Abstractions/"]
 COPY ["CinemaToon.Entities/CinemaToon.Entities.csproj", "CinemaToon.Entities/"]
+COPY ["CinemaToon.Movies.Application.Core/CinemaToon.Movies.Application.Core.csproj", "CinemaToon.Movies.Application.Core/"]
 RUN dotnet restore "CinemaToon.Movies.API/CinemaToon.Movies.API.csproj"
 COPY . .
 WORKDIR "/src/CinemaToon.Movies.API"

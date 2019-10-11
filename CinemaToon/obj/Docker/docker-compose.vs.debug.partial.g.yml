@@ -1,0 +1,141 @@
+version: '3.4'
+
+services:
+  cinematoon.cinemabooking.api:
+    image: cinematooncinemabookingapi:dev
+    build:
+      target: base
+      labels:
+        com.microsoft.created-by: "visual-studio"
+        com.microsoft.visual-studio.project-name: "CinemaToon.CinemaBooking.API"
+    environment:
+      - DOTNET_USE_POLLING_FILE_WATCHER=1
+      - NUGET_PACKAGES=C:\.nuget\packages
+      - NUGET_FALLBACK_PACKAGES=c:\.nuget\fallbackpackages
+    volumes:
+      - C:\Users\avelez\source\repos\CinemaToon\CinemaToon\CinemaToon.CinemaBooking.API:C:\app
+      - C:\Users\avelez\source\repos\CinemaToon\CinemaToon:C:\src
+      - C:\Users\avelez\onecoremsvsmon\16.3.0039.0:C:\remote_debugger:ro
+      - C:\Users\avelez\.nuget\packages\:c:\.nuget\packages:ro
+      - C:\Program Files\dotnet\sdk\NuGetFallbackFolder:c:\.nuget\fallbackpackages:ro
+      - ${APPDATA}/ASP.NET/Https:C:\Users\ContainerUser\AppData\Roaming\ASP.NET\Https:ro
+      - ${APPDATA}/Microsoft/UserSecrets:C:\Users\ContainerUser\AppData\Roaming\Microsoft\UserSecrets:ro
+
+    entrypoint: C:\\remote_debugger\\x64\\msvsmon.exe /noauth /anyuser /silent /nostatus /noclrwarn /nosecuritywarn /nofirewallwarn /nowowwarn /timeout:2147483646 /LogDebuggeeOutputToStdOut
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "\"C:\\Program Files\\dotnet\\dotnet.exe\""
+      com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath c:\\.nuget\\packages --additionalProbingPath c:\\.nuget\\fallbackpackages  \"bin\\Debug\\netcoreapp2.2\\CinemaToon.CinemaBooking.API.dll\""
+      com.microsoft.visualstudio.debuggee.workingdirectory: "C:\\app"
+      com.microsoft.visualstudio.debuggee.killprogram: "C:\\remote_debugger\\x64\\utils\\KillProcess.exe dotnet.exe"
+
+  cinematoon.fakepaymentservice.api:
+    image: cinematoonfakepaymentserviceapi:dev
+    build:
+      target: base
+      labels:
+        com.microsoft.created-by: "visual-studio"
+        com.microsoft.visual-studio.project-name: "CinemaToon.FakePaymentService.API"
+    environment:
+      - DOTNET_USE_POLLING_FILE_WATCHER=1
+      - NUGET_PACKAGES=C:\.nuget\packages
+      - NUGET_FALLBACK_PACKAGES=c:\.nuget\fallbackpackages
+    volumes:
+      - C:\Users\avelez\source\repos\CinemaToon\CinemaToon\CinemaToon.FakePaymentService.API:C:\app
+      - C:\Users\avelez\source\repos\CinemaToon\CinemaToon:C:\src
+      - C:\Users\avelez\onecoremsvsmon\16.3.0039.0:C:\remote_debugger:ro
+      - C:\Users\avelez\.nuget\packages\:c:\.nuget\packages:ro
+      - C:\Program Files\dotnet\sdk\NuGetFallbackFolder:c:\.nuget\fallbackpackages:ro
+      - ${APPDATA}/ASP.NET/Https:C:\Users\ContainerUser\AppData\Roaming\ASP.NET\Https:ro
+      - ${APPDATA}/Microsoft/UserSecrets:C:\Users\ContainerUser\AppData\Roaming\Microsoft\UserSecrets:ro
+
+    entrypoint: C:\\remote_debugger\\x64\\msvsmon.exe /noauth /anyuser /silent /nostatus /noclrwarn /nosecuritywarn /nofirewallwarn /nowowwarn /timeout:2147483646 /LogDebuggeeOutputToStdOut
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "\"C:\\Program Files\\dotnet\\dotnet.exe\""
+      com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath c:\\.nuget\\packages --additionalProbingPath c:\\.nuget\\fallbackpackages  \"bin\\Debug\\netcoreapp2.2\\CinemaToon.FakePaymentService.API.dll\""
+      com.microsoft.visualstudio.debuggee.workingdirectory: "C:\\app"
+      com.microsoft.visualstudio.debuggee.killprogram: "C:\\remote_debugger\\x64\\utils\\KillProcess.exe dotnet.exe"
+
+
+  cinematoon.identityserver:
+    image: cinematoonidentityserver:dev
+    build:
+      target: base
+      labels:
+        com.microsoft.created-by: "visual-studio"
+        com.microsoft.visual-studio.project-name: "CinemaToon.IdentityServer"
+    environment:
+      - DOTNET_USE_POLLING_FILE_WATCHER=1
+      - NUGET_PACKAGES=C:\.nuget\packages
+      - NUGET_FALLBACK_PACKAGES=c:\.nuget\fallbackpackages
+    volumes:
+      - C:\Users\avelez\source\repos\CinemaToon\CinemaToon\CinemaToon.IdentityServer:C:\app
+      - C:\Users\avelez\source\repos\CinemaToon\CinemaToon:C:\src
+      - C:\Users\avelez\onecoremsvsmon\16.3.0039.0:C:\remote_debugger:ro
+      - C:\Users\avelez\.nuget\packages\:c:\.nuget\packages:ro
+      - C:\Program Files\dotnet\sdk\NuGetFallbackFolder:c:\.nuget\fallbackpackages:ro
+      - ${APPDATA}/ASP.NET/Https:C:\Users\ContainerUser\AppData\Roaming\ASP.NET\Https:ro
+      - ${APPDATA}/Microsoft/UserSecrets:C:\Users\ContainerUser\AppData\Roaming\Microsoft\UserSecrets:ro
+
+    entrypoint: C:\\remote_debugger\\x64\\msvsmon.exe /noauth /anyuser /silent /nostatus /noclrwarn /nosecuritywarn /nofirewallwarn /nowowwarn /timeout:2147483646 /LogDebuggeeOutputToStdOut
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "\"C:\\Program Files\\dotnet\\dotnet.exe\""
+      com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath c:\\.nuget\\packages --additionalProbingPath c:\\.nuget\\fallbackpackages  \"bin\\Debug\\netcoreapp2.2\\CinemaToon.IdentityServer.dll\""
+      com.microsoft.visualstudio.debuggee.workingdirectory: "C:\\app"
+      com.microsoft.visualstudio.debuggee.killprogram: "C:\\remote_debugger\\x64\\utils\\KillProcess.exe dotnet.exe"
+
+
+  cinematoon.movies.api:
+    image: cinematoonmoviesapi:dev
+    build:
+      target: base
+      labels:
+        com.microsoft.created-by: "visual-studio"
+        com.microsoft.visual-studio.project-name: "CinemaToon.Movies.API"
+    environment:
+      - DOTNET_USE_POLLING_FILE_WATCHER=1
+      - NUGET_PACKAGES=C:\.nuget\packages
+      - NUGET_FALLBACK_PACKAGES=c:\.nuget\fallbackpackages
+    volumes:
+      - C:\Users\avelez\source\repos\CinemaToon\CinemaToon\CinemaToon.Movies.API:C:\app
+      - C:\Users\avelez\source\repos\CinemaToon\CinemaToon:C:\src
+      - C:\Users\avelez\onecoremsvsmon\16.3.0039.0:C:\remote_debugger:ro
+      - C:\Users\avelez\.nuget\packages\:c:\.nuget\packages:ro
+      - C:\Program Files\dotnet\sdk\NuGetFallbackFolder:c:\.nuget\fallbackpackages:ro
+      - ${APPDATA}/ASP.NET/Https:C:\Users\ContainerUser\AppData\Roaming\ASP.NET\Https:ro
+      - ${APPDATA}/Microsoft/UserSecrets:C:\Users\ContainerUser\AppData\Roaming\Microsoft\UserSecrets:ro
+
+    entrypoint: C:\\remote_debugger\\x64\\msvsmon.exe /noauth /anyuser /silent /nostatus /noclrwarn /nosecuritywarn /nofirewallwarn /nowowwarn /timeout:2147483646 /LogDebuggeeOutputToStdOut
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "\"C:\\Program Files\\dotnet\\dotnet.exe\""
+      com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath c:\\.nuget\\packages --additionalProbingPath c:\\.nuget\\fallbackpackages  \"bin\\Debug\\netcoreapp2.2\\CinemaToon.Movies.API.dll\""
+      com.microsoft.visualstudio.debuggee.workingdirectory: "C:\\app"
+      com.microsoft.visualstudio.debuggee.killprogram: "C:\\remote_debugger\\x64\\utils\\KillProcess.exe dotnet.exe"
+
+
+  cinematoonweb.mvc:
+    image: cinematoonwebmvc:dev
+    build:
+      target: base
+      labels:
+        com.microsoft.created-by: "visual-studio"
+        com.microsoft.visual-studio.project-name: "CinemaToonWeb.MVC"
+    environment:
+      - DOTNET_USE_POLLING_FILE_WATCHER=1
+      - NUGET_PACKAGES=C:\.nuget\packages
+      - NUGET_FALLBACK_PACKAGES=c:\.nuget\fallbackpackages
+    volumes:
+      - C:\Users\avelez\source\repos\CinemaToon\CinemaToon\CinemaToonWeb.MVC:C:\app
+      - C:\Users\avelez\source\repos\CinemaToon\CinemaToon:C:\src
+      - C:\Users\avelez\onecoremsvsmon\16.3.0039.0:C:\remote_debugger:ro
+      - C:\Users\avelez\.nuget\packages\:c:\.nuget\packages:ro
+      - C:\Program Files\dotnet\sdk\NuGetFallbackFolder:c:\.nuget\fallbackpackages:ro
+      - ${APPDATA}/ASP.NET/Https:C:\Users\ContainerUser\AppData\Roaming\ASP.NET\Https:ro
+      - ${APPDATA}/Microsoft/UserSecrets:C:\Users\ContainerUser\AppData\Roaming\Microsoft\UserSecrets:ro
+
+    entrypoint: C:\\remote_debugger\\x64\\msvsmon.exe /noauth /anyuser /silent /nostatus /noclrwarn /nosecuritywarn /nofirewallwarn /nowowwarn /timeout:2147483646 /LogDebuggeeOutputToStdOut
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "\"C:\\Program Files\\dotnet\\dotnet.exe\""
+      com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath c:\\.nuget\\packages --additionalProbingPath c:\\.nuget\\fallbackpackages  \"bin\\Debug\\netcoreapp2.2\\CinemaToonWeb.MVC.dll\""
+      com.microsoft.visualstudio.debuggee.workingdirectory: "C:\\app"
+      com.microsoft.visualstudio.debuggee.killprogram: "C:\\remote_debugger\\x64\\utils\\KillProcess.exe dotnet.exe"
+

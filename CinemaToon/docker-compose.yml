@@ -1,0 +1,36 @@
+version: '3.4'
+
+services:
+  cinematoonweb.mvc:
+    image: ${DOCKER_REGISTRY-}cinematoonwebmvc
+    build:
+      context: .
+      dockerfile: CinemaToonWeb.MVC\Dockerfile
+
+  cinematoon.cinemabooking.api:
+    image: ${DOCKER_REGISTRY-}cinematooncinemabookingapi
+    build:
+      context: .
+      dockerfile: CinemaToon.CinemaBooking.API\Dockerfile
+
+
+  cinematoon.identityserver:
+    image: ${DOCKER_REGISTRY-}cinematoonidentityserver
+    build:
+      context: .
+      dockerfile: CinemaToon.IdentityServer\Dockerfile
+
+
+  cinematoon.movies.api:
+    image: ${DOCKER_REGISTRY-}cinematoonmoviesapi
+    build:
+      context: .
+      dockerfile: CinemaToon.Movies.API\Dockerfile
+
+
+  cinematoon.fakepaymentservice.api:
+    image: ${DOCKER_REGISTRY-}cinematoonfakepaymentserviceapi
+    build:
+      context: .
+      dockerfile: CinemaToon.FakePaymentService.API\Dockerfile
+
