@@ -5,35 +5,35 @@ services:
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
     ports:
-       - "5103:80"
+       - "44386:80"
     volumes:
       - ${APPDATA}/Microsoft/UserSecrets:C:\Users\ContainerUser\AppData\Roaming\Microsoft\UserSecrets:ro
   cinematoon.cinemabooking.api:
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
     ports:
-      - "5104:80"
+      - "44347:80"
     volumes:
       - ${APPDATA}/Microsoft/UserSecrets:C:\Users\ContainerUser\AppData\Roaming\Microsoft\UserSecrets:ro
   cinematoon.identityserver:
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
     ports:
-      - "5105:80"
+      - "44329:80"
     volumes:
       - ${APPDATA}/Microsoft/UserSecrets:C:\Users\ContainerUser\AppData\Roaming\Microsoft\UserSecrets:ro
   cinematoon.movies.api:
     environment:
       - ASPNETCORE_ENVIRONMENT=Development  
     ports:
-      - "5106:80"
+      - "4455:80"
     volumes:
       - ${APPDATA}/Microsoft/UserSecrets:C:\Users\ContainerUser\AppData\Roaming\Microsoft\UserSecrets:ro    
   cinematoon.fakepaymentservice.api:
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
     ports:
-      - "5107:80"
+      - "44377:80"
     volumes:
       - ${APPDATA}/Microsoft/UserSecrets:C:\Users\ContainerUser\AppData\Roaming\Microsoft\UserSecrets:ro
 networks:
