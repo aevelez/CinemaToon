@@ -5,7 +5,7 @@ services:
     image: ${DOCKER_REGISTRY-}cinematoonwebmvc
     build:
       context: .
-      dockerfile: CinemaToonWeb.MVC\Dockerfile
+      dockerfile: CinemaToonWeb.MVC\Dockerfile   
 
   cinematoon.cinemabooking.api:
     image: ${DOCKER_REGISTRY-}cinematooncinemabookingapi
