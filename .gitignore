@@ -3,3 +3,10 @@
 ################################################################################
 
 /CinemaToon/.vs/CinemaToon/v16
+/CinemaToon
+/CinemaToon.Theaters.Data.Context/obj
+/CinemaToon.Theaters.Data.Context/bin
+/CinemaToon.Theaters.Application.Core/obj
+/CinemaToon.Theaters.Application.Core/bin/Debug/netcoreapp2.2
+/CinemaToon.Theaters.API/obj
+/CinemaToon.Theaters.API/bin

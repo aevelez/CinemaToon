@@ -36,10 +36,17 @@ services:
       - "44377:80"
     volumes:
       - ${APPDATA}/Microsoft/UserSecrets:C:\Users\ContainerUser\AppData\Roaming\Microsoft\UserSecrets:ro
+  cinematoon.theaters.api:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "44378:80"
+
 networks:
   default:
     external:
       name: nat
+
 
 
 

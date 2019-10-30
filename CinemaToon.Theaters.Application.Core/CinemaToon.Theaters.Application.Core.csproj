@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CinemaToon.Theaters.Data.Context\CinemaToon.Theaters.Data.Context.csproj" />
+    <ProjectReference Include="..\CinemaToon\CinemaToon.Utilities.Abstractions\CinemaToon.Utilities.Abstractions.csproj" />
+  </ItemGroup>
+
+</Project>

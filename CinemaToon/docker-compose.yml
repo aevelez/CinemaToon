@@ -34,3 +34,10 @@ services:
       context: .
       dockerfile: CinemaToon.FakePaymentService.API\Dockerfile
 
+
+  cinematoon.theaters.api:
+    image: ${DOCKER_REGISTRY-}cinematoontheatersapi
+    build:
+      context: .
+      dockerfile: ..\CinemaToon.Theaters.API\Dockerfile
+
