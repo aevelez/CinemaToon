@@ -1,0 +1,100 @@
+﻿@model CinemaToon.Web.MVC.ViewModels.MovieDetailViewModel
+
+@{
+    ViewData["Title"] = "Theathers";
+}
+@if (ViewContext.ModelState.IsValid == false)
+{
+    <div class="alert alert-danger">
+        <strong>Error</strong>
+        <div asp-validation-summary="All" class="danger"></div>
+    </div>
+}
+
+<div>
+    <form method="post" class="container">
+        <br />
+        <div class="row">
+            <div class="col-md-3">
+                <img class=" img" src="@Url.Content(Model.Movie.FullPosterPath)" />
+            </div>
+            <div class="col-md-9">
+
+                <div class="row">
+                    <div class="col-md-3">
+
+                        <label asp-for="Movie.OriginalTitle"></label>
+
+                    </div>
+                    <div class="col-md-6">
+                        @Model.Movie.OriginalTitle
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+                        <label asp-for="Movie.VoteAverage"></label>
+                    </div>
+                    <div class="col-md-6">
+                        @Model.Movie.VoteAverage
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+                        <label asp-for="Movie.OriginalLanguage"></label>
+                    </div>
+                    <div class="col-md-6">
+                        @Model.Movie.OriginalLanguage
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+                        <label asp-for="Movie.Overview"></label>
+                    </div>
+                    <div class="col-md-6">
+                        @Model.Movie.Overview
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="col-md-3">
+                        <label asp-for="Movie.ReleaseDate"></label>
+                    </div>
+                    <div class="col-md-6">
+                        @Model.Movie.ReleaseDate
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="clearfix">&nbsp;</div>
+
+        @using (Html.BeginForm())
+        {
+            @Html.DropDownListFor(n => n.SelectedTheaterId, @Model.CinemaTheaters, " - Select Theaters -", new { @class = "form-control", @onchange = "callChangefunc()" })
+        }
+        <div class="clearfix">&nbsp;</div>
+        <script>
+            function callChangefunc() {
+                    var url = '@Url.Action("Details", "Movies", new { id = @Model.Movie.Id, theaterId = @Model.SelectedTheaterId })';
+                    $("#tblMainAlt").load(url);
+                    $("#tblMain").show();
+                }
+        </script>
+
+        <div id="tblMain" class="panel panel-default" hidden="hidden">
+            <div class="panel-heading ">Showtimes</div>
+            <div id="tblMainAlt" class="panel-body">
+
+
+            </div>
+        </div>
+    </form>
+</div>
+<div>
+    <a asp-action="Index"><i class="glyphicon glyphicon-home"></i> Back to List</a>
+
+</div>
+
+
