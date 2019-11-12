@@ -1,5 +1,7 @@
 ﻿using CinemaToon.Entities.CinemaBooking;
 using CinemaToon.Entities.Movies;
+using CinemaToon.Entities.Theaters;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -26,6 +28,7 @@ namespace CinemaToon.Web.MVC.ViewModels
         [DisplayName("Number of Tickets")]
         public int? NumberOfTickets { get; set; }
 
-
+        public int SelectedTheaterId { get; set; }
+        public IEnumerable<SelectListItem> CinemaTheaters { get; set; }
     }
 }

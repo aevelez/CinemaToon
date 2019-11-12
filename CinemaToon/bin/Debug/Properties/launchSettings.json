@@ -3,7 +3,7 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:4455",
+      "applicationUrl": "http://localhost:35760",
       "sslPort": 0
     }
   },
@@ -12,15 +12,15 @@
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
-      "launchUrl": "api/movies",
+      "launchUrl": "api/theater",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "CinemaToon.Movies.API": {
+    "CinemaToon.Theaters.API": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "api/movies",
+      "launchUrl": "api/theater",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },

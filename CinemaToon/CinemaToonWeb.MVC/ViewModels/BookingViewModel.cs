@@ -32,5 +32,7 @@ namespace CinemaToon.Web.MVC.ViewModels
         [DisplayName("Available Seats")]
         public int AvailableSeats { get; set; }
 
+        public int CinemaTheaterId { get; set; }
+
     }
 }

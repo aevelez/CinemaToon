@@ -11,3 +11,16 @@ C:\Users\avelez\source\repos\CinemaToon\CinemaToon\CinemaToon.Booking.Data.Conte
 C:\Users\avelez\source\repos\CinemaToon\CinemaToon\CinemaToon.Booking.Data.Context\obj\Debug\netcoreapp2.2\CinemaToon.Booking.Data.Context.csproj.CopyComplete
 C:\Users\avelez\source\repos\CinemaToon\CinemaToon\CinemaToon.Booking.Data.Context\obj\Debug\netcoreapp2.2\CinemaToon.Booking.Data.Context.dll
 C:\Users\avelez\source\repos\CinemaToon\CinemaToon\CinemaToon.Booking.Data.Context\obj\Debug\netcoreapp2.2\CinemaToon.Booking.Data.Context.pdb
+C:\Users\mgiraldo\source\repos\CinemaToon\CinemaToon\CinemaToon.Booking.Data.Context\bin\Debug\netcoreapp2.2\CinemaToon.Booking.Data.Context.deps.json
+C:\Users\mgiraldo\source\repos\CinemaToon\CinemaToon\CinemaToon.Booking.Data.Context\bin\Debug\netcoreapp2.2\CinemaToon.Booking.Data.Context.runtimeconfig.json
+C:\Users\mgiraldo\source\repos\CinemaToon\CinemaToon\CinemaToon.Booking.Data.Context\bin\Debug\netcoreapp2.2\CinemaToon.Booking.Data.Context.runtimeconfig.dev.json
+C:\Users\mgiraldo\source\repos\CinemaToon\CinemaToon\CinemaToon.Booking.Data.Context\bin\Debug\netcoreapp2.2\CinemaToon.Booking.Data.Context.dll
+C:\Users\mgiraldo\source\repos\CinemaToon\CinemaToon\CinemaToon.Booking.Data.Context\bin\Debug\netcoreapp2.2\CinemaToon.Booking.Data.Context.pdb
+C:\Users\mgiraldo\source\repos\CinemaToon\CinemaToon\CinemaToon.Booking.Data.Context\bin\Debug\netcoreapp2.2\CinemaToon.Entities.dll
+C:\Users\mgiraldo\source\repos\CinemaToon\CinemaToon\CinemaToon.Booking.Data.Context\bin\Debug\netcoreapp2.2\CinemaToon.Entities.pdb
+C:\Users\mgiraldo\source\repos\CinemaToon\CinemaToon\CinemaToon.Booking.Data.Context\obj\Debug\netcoreapp2.2\CinemaToon.Booking.Data.Context.csprojAssemblyReference.cache
+C:\Users\mgiraldo\source\repos\CinemaToon\CinemaToon\CinemaToon.Booking.Data.Context\obj\Debug\netcoreapp2.2\CinemaToon.Booking.Data.Context.AssemblyInfoInputs.cache
+C:\Users\mgiraldo\source\repos\CinemaToon\CinemaToon\CinemaToon.Booking.Data.Context\obj\Debug\netcoreapp2.2\CinemaToon.Booking.Data.Context.AssemblyInfo.cs
+C:\Users\mgiraldo\source\repos\CinemaToon\CinemaToon\CinemaToon.Booking.Data.Context\obj\Debug\netcoreapp2.2\CinemaToon.Booking.Data.Context.csproj.CopyComplete
+C:\Users\mgiraldo\source\repos\CinemaToon\CinemaToon\CinemaToon.Booking.Data.Context\obj\Debug\netcoreapp2.2\CinemaToon.Booking.Data.Context.dll
+C:\Users\mgiraldo\source\repos\CinemaToon\CinemaToon\CinemaToon.Booking.Data.Context\obj\Debug\netcoreapp2.2\CinemaToon.Booking.Data.Context.pdb

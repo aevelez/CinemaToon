@@ -5,12 +5,14 @@ using System.Linq;
 using System.Threading.Tasks;
 using CinemaToon.Entities.CinemaBooking;
 using CinemaToon.Entities.Movies;
+using CinemaToon.Entities.Theaters;
 using CinemaToon.Utilities.Abstractions.Interfaces;
 using CinemaToon.Web.MVC.Models;
 using CinemaToon.Web.MVC.ViewModels;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.Extensions.Configuration;
 
 namespace CinemaToon.Web.MVC.Controllers
@@ -47,13 +49,30 @@ namespace CinemaToon.Web.MVC.Controllers
 
         // GET: Movies/Details        
         [HttpGet]
-        public async Task<ActionResult> Details(int id)
+        public async Task<ActionResult> Details(int id, int theaterId)
         {
             try
             {
                 Movie movie = await GetMovie(id);
                 IEnumerable<CinemaFunction> functions = await GetFunctions(movie.Id);
-                return View(new MovieDetailViewModel() { Movie = movie, CinemaBooking = functions });
+                return View(new MovieDetailViewModel() { Movie = movie, CinemaBooking = functions, SelectedTheaterId = theaterId });
+            }
+            catch (Exception)
+            {
+                return View("Error", new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            }
+        }
+
+        // GET: Movies/Details        
+        [HttpGet]
+        public async Task<ActionResult> Theathers(int id)
+        {
+            try
+            {
+                Movie movie = await GetMovie(id);
+                IEnumerable<CinemaFunction> functions = await GetFunctions(movie.Id);
+                IEnumerable<Theater> theaters = await GetTheaters();
+                return View(new MovieDetailViewModel() { Movie = movie, CinemaBooking = functions, CinemaTheaters = new SelectList(theaters, "Id", "Name") });
             }
             catch (Exception)
             {
@@ -69,6 +88,11 @@ namespace CinemaToon.Web.MVC.Controllers
         private async Task<IEnumerable<CinemaFunction>> GetFunctions(int movieId)
         {
             return await _apiClient.GetAsync<IEnumerable<CinemaFunction>>(new Uri($"{_configuration["Booking:BaseUrl"]}{_configuration["Booking:MethodFunctions"]}{movieId}"));
+        }
+
+        private async Task<IEnumerable<Theater>> GetTheaters()
+        {
+            return await _apiClient.GetAsync<IEnumerable<Theater>>(new Uri($"{_configuration["Theaters:BaseUrl"]}"));
         }
 
         [HttpPost]

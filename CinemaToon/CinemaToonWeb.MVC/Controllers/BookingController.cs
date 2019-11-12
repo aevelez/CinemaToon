@@ -26,7 +26,7 @@ namespace CinemaToon.Web.MVC.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult> Index(int movieId, int cinemaFunctionId)
+        public async Task<ActionResult> Index(int movieId, int cinemaFunctionId, int cinemaTheaterId)
         {
             try
             {
@@ -38,7 +38,8 @@ namespace CinemaToon.Web.MVC.Controllers
                     PricePerTicket = cinemaFunction.BasePrice * movie.VoteAverage / 10,
                     OriginalTitle = movie.OriginalTitle,
                     Id = movie.Id,
-                    CinemaFuctionId = cinemaFunction.CinemaFuctionId
+                    CinemaFuctionId = cinemaFunction.CinemaFuctionId,
+                    CinemaTheaterId = cinemaTheaterId
                 };
                 return View(viewModel);
             }
@@ -75,7 +76,8 @@ namespace CinemaToon.Web.MVC.Controllers
                             numberOfTickets = reserverViewModel.NumberOfTickets,
                             user = User.FindFirst(x => x.Type == "sub").Value,
                             originalMovieTitle = reserverViewModel.OriginalTitle,
-                            total = reserverViewModel.TotalPrice
+                            total = reserverViewModel.TotalPrice,
+                            theaterId = reserverViewModel.CinemaTheaterId
                         });
 
                     switch (result.MessageCode)

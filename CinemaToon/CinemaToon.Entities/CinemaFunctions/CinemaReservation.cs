@@ -31,6 +31,8 @@ namespace CinemaToon.Entities.CinemaBooking
 
         [DisplayName("Movie Title")]
         public string OriginalMovieTitle { get; set; }
-        
+
+        public int TheaterId { get; set; }
+
     }
 }

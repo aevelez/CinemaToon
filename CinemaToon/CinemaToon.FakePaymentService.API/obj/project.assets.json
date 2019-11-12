@@ -13007,24 +13007,27 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\avelez\\.nuget\\packages\\": {},
+    "C:\\Users\\mgiraldo\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\avelez\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.FakePaymentService.API\\CinemaToon.FakePaymentService.API.csproj",
+      "projectUniqueName": "C:\\Users\\mgiraldo\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.FakePaymentService.API\\CinemaToon.FakePaymentService.API.csproj",
       "projectName": "CinemaToon.FakePaymentService.API",
-      "projectPath": "C:\\Users\\avelez\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.FakePaymentService.API\\CinemaToon.FakePaymentService.API.csproj",
-      "packagesPath": "C:\\Users\\avelez\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\avelez\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.FakePaymentService.API\\obj\\",
+      "projectPath": "C:\\Users\\mgiraldo\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.FakePaymentService.API\\CinemaToon.FakePaymentService.API.csproj",
+      "packagesPath": "C:\\Users\\mgiraldo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mgiraldo\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.FakePaymentService.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\avelez\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\mgiraldo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.2"

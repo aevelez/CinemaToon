@@ -1,24 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\avelez\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.CinemaBooking.API\\CinemaToon.CinemaBooking.API.csproj": {}
+    "C:\\Users\\mgiraldo\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.CinemaBooking.API\\CinemaToon.CinemaBooking.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\avelez\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.Booking.Application.Core\\CinemaToon.Booking.Application.Core.csproj": {
+    "C:\\Users\\mgiraldo\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.Booking.Application.Core\\CinemaToon.Booking.Application.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\avelez\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.Booking.Application.Core\\CinemaToon.Booking.Application.Core.csproj",
+        "projectUniqueName": "C:\\Users\\mgiraldo\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.Booking.Application.Core\\CinemaToon.Booking.Application.Core.csproj",
         "projectName": "CinemaToon.Booking.Application.Core",
-        "projectPath": "C:\\Users\\avelez\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.Booking.Application.Core\\CinemaToon.Booking.Application.Core.csproj",
-        "packagesPath": "C:\\Users\\avelez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\avelez\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.Booking.Application.Core\\obj\\",
+        "projectPath": "C:\\Users\\mgiraldo\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.Booking.Application.Core\\CinemaToon.Booking.Application.Core.csproj",
+        "packagesPath": "C:\\Users\\mgiraldo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mgiraldo\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.Booking.Application.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\avelez\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\mgiraldo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
@@ -30,11 +32,11 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\Users\\avelez\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.Booking.Data.Context\\CinemaToon.Booking.Data.Context.csproj": {
-                "projectPath": "C:\\Users\\avelez\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.Booking.Data.Context\\CinemaToon.Booking.Data.Context.csproj"
+              "C:\\Users\\mgiraldo\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.Booking.Data.Context\\CinemaToon.Booking.Data.Context.csproj": {
+                "projectPath": "C:\\Users\\mgiraldo\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.Booking.Data.Context\\CinemaToon.Booking.Data.Context.csproj"
               },
-              "C:\\Users\\avelez\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.Utilities.Abstractions\\CinemaToon.Utilities.Abstractions.csproj": {
-                "projectPath": "C:\\Users\\avelez\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.Utilities.Abstractions\\CinemaToon.Utilities.Abstractions.csproj"
+              "C:\\Users\\mgiraldo\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.Utilities.Abstractions\\CinemaToon.Utilities.Abstractions.csproj": {
+                "projectPath": "C:\\Users\\mgiraldo\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.Utilities.Abstractions\\CinemaToon.Utilities.Abstractions.csproj"
               }
             }
           }
@@ -69,21 +71,23 @@
         }
       }
     },
-    "C:\\Users\\avelez\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.Booking.Data.Context\\CinemaToon.Booking.Data.Context.csproj": {
+    "C:\\Users\\mgiraldo\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.Booking.Data.Context\\CinemaToon.Booking.Data.Context.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\avelez\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.Booking.Data.Context\\CinemaToon.Booking.Data.Context.csproj",
+        "projectUniqueName": "C:\\Users\\mgiraldo\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.Booking.Data.Context\\CinemaToon.Booking.Data.Context.csproj",
         "projectName": "CinemaToon.Booking.Data.Context",
-        "projectPath": "C:\\Users\\avelez\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.Booking.Data.Context\\CinemaToon.Booking.Data.Context.csproj",
-        "packagesPath": "C:\\Users\\avelez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\avelez\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.Booking.Data.Context\\obj\\",
+        "projectPath": "C:\\Users\\mgiraldo\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.Booking.Data.Context\\CinemaToon.Booking.Data.Context.csproj",
+        "packagesPath": "C:\\Users\\mgiraldo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mgiraldo\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.Booking.Data.Context\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\avelez\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\mgiraldo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
@@ -95,8 +99,8 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\Users\\avelez\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.Entities\\CinemaToon.Entities.csproj": {
-                "projectPath": "C:\\Users\\avelez\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.Entities\\CinemaToon.Entities.csproj"
+              "C:\\Users\\mgiraldo\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.Entities\\CinemaToon.Entities.csproj": {
+                "projectPath": "C:\\Users\\mgiraldo\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.Entities\\CinemaToon.Entities.csproj"
               }
             }
           }
@@ -153,21 +157,23 @@
         }
       }
     },
-    "C:\\Users\\avelez\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.CinemaBooking.API\\CinemaToon.CinemaBooking.API.csproj": {
+    "C:\\Users\\mgiraldo\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.CinemaBooking.API\\CinemaToon.CinemaBooking.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\avelez\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.CinemaBooking.API\\CinemaToon.CinemaBooking.API.csproj",
+        "projectUniqueName": "C:\\Users\\mgiraldo\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.CinemaBooking.API\\CinemaToon.CinemaBooking.API.csproj",
         "projectName": "CinemaToon.CinemaBooking.API",
-        "projectPath": "C:\\Users\\avelez\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.CinemaBooking.API\\CinemaToon.CinemaBooking.API.csproj",
-        "packagesPath": "C:\\Users\\avelez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\avelez\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.CinemaBooking.API\\obj\\",
+        "projectPath": "C:\\Users\\mgiraldo\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.CinemaBooking.API\\CinemaToon.CinemaBooking.API.csproj",
+        "packagesPath": "C:\\Users\\mgiraldo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mgiraldo\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.CinemaBooking.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\avelez\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\mgiraldo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
@@ -179,17 +185,17 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\Users\\avelez\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.Booking.Application.Core\\CinemaToon.Booking.Application.Core.csproj": {
-                "projectPath": "C:\\Users\\avelez\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.Booking.Application.Core\\CinemaToon.Booking.Application.Core.csproj"
+              "C:\\Users\\mgiraldo\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.Booking.Application.Core\\CinemaToon.Booking.Application.Core.csproj": {
+                "projectPath": "C:\\Users\\mgiraldo\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.Booking.Application.Core\\CinemaToon.Booking.Application.Core.csproj"
               },
-              "C:\\Users\\avelez\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.Booking.Data.Context\\CinemaToon.Booking.Data.Context.csproj": {
-                "projectPath": "C:\\Users\\avelez\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.Booking.Data.Context\\CinemaToon.Booking.Data.Context.csproj"
+              "C:\\Users\\mgiraldo\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.Booking.Data.Context\\CinemaToon.Booking.Data.Context.csproj": {
+                "projectPath": "C:\\Users\\mgiraldo\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.Booking.Data.Context\\CinemaToon.Booking.Data.Context.csproj"
               },
-              "C:\\Users\\avelez\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.Utilities.Abstractions\\CinemaToon.Utilities.Abstractions.csproj": {
-                "projectPath": "C:\\Users\\avelez\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.Utilities.Abstractions\\CinemaToon.Utilities.Abstractions.csproj"
+              "C:\\Users\\mgiraldo\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.Utilities.Abstractions\\CinemaToon.Utilities.Abstractions.csproj": {
+                "projectPath": "C:\\Users\\mgiraldo\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.Utilities.Abstractions\\CinemaToon.Utilities.Abstractions.csproj"
               },
-              "C:\\Users\\avelez\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.Utilities.Helpers\\CinemaToon.Utilities.Helpers.csproj": {
-                "projectPath": "C:\\Users\\avelez\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.Utilities.Helpers\\CinemaToon.Utilities.Helpers.csproj"
+              "C:\\Users\\mgiraldo\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.Utilities.Helpers\\CinemaToon.Utilities.Helpers.csproj": {
+                "projectPath": "C:\\Users\\mgiraldo\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.Utilities.Helpers\\CinemaToon.Utilities.Helpers.csproj"
               }
             }
           }
@@ -246,21 +252,23 @@
         }
       }
     },
-    "C:\\Users\\avelez\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.Entities\\CinemaToon.Entities.csproj": {
+    "C:\\Users\\mgiraldo\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.Entities\\CinemaToon.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\avelez\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.Entities\\CinemaToon.Entities.csproj",
+        "projectUniqueName": "C:\\Users\\mgiraldo\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.Entities\\CinemaToon.Entities.csproj",
         "projectName": "CinemaToon.Entities",
-        "projectPath": "C:\\Users\\avelez\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.Entities\\CinemaToon.Entities.csproj",
-        "packagesPath": "C:\\Users\\avelez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\avelez\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.Entities\\obj\\",
+        "projectPath": "C:\\Users\\mgiraldo\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.Entities\\CinemaToon.Entities.csproj",
+        "packagesPath": "C:\\Users\\mgiraldo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mgiraldo\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\avelez\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\mgiraldo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
@@ -304,21 +312,23 @@
         }
       }
     },
-    "C:\\Users\\avelez\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.Utilities.Abstractions\\CinemaToon.Utilities.Abstractions.csproj": {
+    "C:\\Users\\mgiraldo\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.Utilities.Abstractions\\CinemaToon.Utilities.Abstractions.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\avelez\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.Utilities.Abstractions\\CinemaToon.Utilities.Abstractions.csproj",
+        "projectUniqueName": "C:\\Users\\mgiraldo\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.Utilities.Abstractions\\CinemaToon.Utilities.Abstractions.csproj",
         "projectName": "CinemaToon.Utilities.Abstractions",
-        "projectPath": "C:\\Users\\avelez\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.Utilities.Abstractions\\CinemaToon.Utilities.Abstractions.csproj",
-        "packagesPath": "C:\\Users\\avelez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\avelez\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.Utilities.Abstractions\\obj\\",
+        "projectPath": "C:\\Users\\mgiraldo\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.Utilities.Abstractions\\CinemaToon.Utilities.Abstractions.csproj",
+        "packagesPath": "C:\\Users\\mgiraldo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mgiraldo\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.Utilities.Abstractions\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\avelez\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\mgiraldo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
@@ -330,8 +340,8 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\Users\\avelez\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.Entities\\CinemaToon.Entities.csproj": {
-                "projectPath": "C:\\Users\\avelez\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.Entities\\CinemaToon.Entities.csproj"
+              "C:\\Users\\mgiraldo\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.Entities\\CinemaToon.Entities.csproj": {
+                "projectPath": "C:\\Users\\mgiraldo\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.Entities\\CinemaToon.Entities.csproj"
               }
             }
           }
@@ -366,21 +376,23 @@
         }
       }
     },
-    "C:\\Users\\avelez\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.Utilities.Helpers\\CinemaToon.Utilities.Helpers.csproj": {
+    "C:\\Users\\mgiraldo\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.Utilities.Helpers\\CinemaToon.Utilities.Helpers.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\avelez\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.Utilities.Helpers\\CinemaToon.Utilities.Helpers.csproj",
+        "projectUniqueName": "C:\\Users\\mgiraldo\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.Utilities.Helpers\\CinemaToon.Utilities.Helpers.csproj",
         "projectName": "CinemaToon.Utilities.Helpers",
-        "projectPath": "C:\\Users\\avelez\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.Utilities.Helpers\\CinemaToon.Utilities.Helpers.csproj",
-        "packagesPath": "C:\\Users\\avelez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\avelez\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.Utilities.Helpers\\obj\\",
+        "projectPath": "C:\\Users\\mgiraldo\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.Utilities.Helpers\\CinemaToon.Utilities.Helpers.csproj",
+        "packagesPath": "C:\\Users\\mgiraldo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mgiraldo\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.Utilities.Helpers\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\avelez\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\mgiraldo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
@@ -392,8 +404,8 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\Users\\avelez\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.Utilities.Abstractions\\CinemaToon.Utilities.Abstractions.csproj": {
-                "projectPath": "C:\\Users\\avelez\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.Utilities.Abstractions\\CinemaToon.Utilities.Abstractions.csproj"
+              "C:\\Users\\mgiraldo\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.Utilities.Abstractions\\CinemaToon.Utilities.Abstractions.csproj": {
+                "projectPath": "C:\\Users\\mgiraldo\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.Utilities.Abstractions\\CinemaToon.Utilities.Abstractions.csproj"
               }
             }
           }

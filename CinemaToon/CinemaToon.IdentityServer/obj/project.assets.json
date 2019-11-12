@@ -12292,24 +12292,27 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\avelez\\.nuget\\packages\\": {},
+    "C:\\Users\\mgiraldo\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\avelez\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.IdentityServer\\CinemaToon.IdentityServer.csproj",
+      "projectUniqueName": "C:\\Users\\mgiraldo\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.IdentityServer\\CinemaToon.IdentityServer.csproj",
       "projectName": "CinemaToon.IdentityServer",
-      "projectPath": "C:\\Users\\avelez\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.IdentityServer\\CinemaToon.IdentityServer.csproj",
-      "packagesPath": "C:\\Users\\avelez\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\avelez\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.IdentityServer\\obj\\",
+      "projectPath": "C:\\Users\\mgiraldo\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.IdentityServer\\CinemaToon.IdentityServer.csproj",
+      "packagesPath": "C:\\Users\\mgiraldo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mgiraldo\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.IdentityServer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\avelez\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\mgiraldo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.2"
@@ -12321,8 +12324,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\avelez\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.IdentityServer.Data.Context\\CinemaToon.IdentityServer.Data.Context.csproj": {
-              "projectPath": "C:\\Users\\avelez\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.IdentityServer.Data.Context\\CinemaToon.IdentityServer.Data.Context.csproj"
+            "C:\\Users\\mgiraldo\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.IdentityServer.Data.Context\\CinemaToon.IdentityServer.Data.Context.csproj": {
+              "projectPath": "C:\\Users\\mgiraldo\\source\\repos\\CinemaToon\\CinemaToon\\CinemaToon.IdentityServer.Data.Context\\CinemaToon.IdentityServer.Data.Context.csproj"
             }
           }
         }

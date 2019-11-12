@@ -9,3 +9,14 @@ C:\Users\avelez\source\repos\CinemaToon\CinemaToon\CinemaToon.Utilities.Abstract
 C:\Users\avelez\source\repos\CinemaToon\CinemaToon\CinemaToon.Utilities.Abstractions\obj\Debug\netcoreapp2.2\CinemaToon.Utilities.Abstractions.csproj.CopyComplete
 C:\Users\avelez\source\repos\CinemaToon\CinemaToon\CinemaToon.Utilities.Abstractions\obj\Debug\netcoreapp2.2\CinemaToon.Utilities.Abstractions.dll
 C:\Users\avelez\source\repos\CinemaToon\CinemaToon\CinemaToon.Utilities.Abstractions\obj\Debug\netcoreapp2.2\CinemaToon.Utilities.Abstractions.pdb
+C:\Users\mgiraldo\source\repos\CinemaToon\CinemaToon\CinemaToon.Utilities.Abstractions\bin\Debug\netcoreapp2.2\CinemaToon.Utilities.Abstractions.deps.json
+C:\Users\mgiraldo\source\repos\CinemaToon\CinemaToon\CinemaToon.Utilities.Abstractions\bin\Debug\netcoreapp2.2\CinemaToon.Utilities.Abstractions.dll
+C:\Users\mgiraldo\source\repos\CinemaToon\CinemaToon\CinemaToon.Utilities.Abstractions\bin\Debug\netcoreapp2.2\CinemaToon.Utilities.Abstractions.pdb
+C:\Users\mgiraldo\source\repos\CinemaToon\CinemaToon\CinemaToon.Utilities.Abstractions\bin\Debug\netcoreapp2.2\CinemaToon.Entities.dll
+C:\Users\mgiraldo\source\repos\CinemaToon\CinemaToon\CinemaToon.Utilities.Abstractions\bin\Debug\netcoreapp2.2\CinemaToon.Entities.pdb
+C:\Users\mgiraldo\source\repos\CinemaToon\CinemaToon\CinemaToon.Utilities.Abstractions\obj\Debug\netcoreapp2.2\CinemaToon.Utilities.Abstractions.csprojAssemblyReference.cache
+C:\Users\mgiraldo\source\repos\CinemaToon\CinemaToon\CinemaToon.Utilities.Abstractions\obj\Debug\netcoreapp2.2\CinemaToon.Utilities.Abstractions.AssemblyInfoInputs.cache
+C:\Users\mgiraldo\source\repos\CinemaToon\CinemaToon\CinemaToon.Utilities.Abstractions\obj\Debug\netcoreapp2.2\CinemaToon.Utilities.Abstractions.AssemblyInfo.cs
+C:\Users\mgiraldo\source\repos\CinemaToon\CinemaToon\CinemaToon.Utilities.Abstractions\obj\Debug\netcoreapp2.2\CinemaToon.Utilities.Abstractions.csproj.CopyComplete
+C:\Users\mgiraldo\source\repos\CinemaToon\CinemaToon\CinemaToon.Utilities.Abstractions\obj\Debug\netcoreapp2.2\CinemaToon.Utilities.Abstractions.dll
+C:\Users\mgiraldo\source\repos\CinemaToon\CinemaToon\CinemaToon.Utilities.Abstractions\obj\Debug\netcoreapp2.2\CinemaToon.Utilities.Abstractions.pdb

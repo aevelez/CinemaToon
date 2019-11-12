@@ -16,5 +16,7 @@
 
         public double PricePerTicket { get; set; }
 
+        public int TheaterId { get; set; }
+
     }
 }

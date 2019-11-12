@@ -11,6 +11,18 @@
     </div>
 }
 
+@section Scripts
+{
+    <script>
+        function callChangefunc()
+        {
+            var idTheater = $("#DropDown").val();
+            $("#tblMainAlt").load('/Movies/Details/' +@Model.Movie.Id+'?theaterId='+idTheater);
+            $("#tblMain").show();
+        }
+    </script>
+}
+
 <div>
     <form method="post" class="container">
         <br />
@@ -70,18 +82,11 @@
 
         <div class="clearfix">&nbsp;</div>
 
-        @using (Html.BeginForm())
-        {
-            @Html.DropDownListFor(n => n.SelectedTheaterId, @Model.CinemaTheaters, " - Select Theaters -", new { @class = "form-control", @onchange = "callChangefunc()" })
-        }
+
+        @Html.DropDownListFor(n => n.SelectedTheaterId, @Model.CinemaTheaters, " - Select Theaters -", new {@Id = "DropDown", @class = "form-control", @onchange = "callChangefunc()" })
+
         <div class="clearfix">&nbsp;</div>
-        <script>
-            function callChangefunc() {
-                    var url = '@Url.Action("Details", "Movies", new { id = @Model.Movie.Id, theaterId = @Model.SelectedTheaterId })';
-                    $("#tblMainAlt").load(url);
-                    $("#tblMain").show();
-                }
-        </script>
+        
 
         <div id="tblMain" class="panel panel-default" hidden="hidden">
             <div class="panel-heading ">Showtimes</div>
@@ -94,7 +99,6 @@
 </div>
 <div>
     <a asp-action="Index"><i class="glyphicon glyphicon-home"></i> Back to List</a>
-
 </div>
 
 

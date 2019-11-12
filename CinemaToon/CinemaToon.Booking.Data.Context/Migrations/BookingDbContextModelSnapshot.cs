@@ -52,6 +52,8 @@ namespace CinemaToon.Booking.Data.Context.Migrations
 
                     b.Property<string>("OriginalMovieTitle");
 
+                    b.Property<int>("TheaterId");
+
                     b.Property<double>("TotalPaid");
 
                     b.Property<int>("TotalTickets");

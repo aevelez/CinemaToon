@@ -18,7 +18,6 @@ namespace CinemaToon.Theaters.Application.Core
             _context = context;
         }
 
-
         public IEnumerable<Theater> GetTheaters()
         {
             return _context.Theater.ToList();

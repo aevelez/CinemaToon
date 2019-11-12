@@ -54,6 +54,7 @@ namespace CinemaToon.Bookings.Application.Core
                         _context.CinemaReservations.Add(cinemaReservation);
                         var cinemaFunction = _context.CinemaBooking.First(x => x.CinemaFuctionId == reserveDTO.FunctionId);
                         cinemaFunction.AvailableSeats -= reserveDTO.NumberOfTickets;
+                        cinemaReservation.TheaterId = reserveDTO.TheaterId;
                         _context.SaveChanges();
                         result.MessageCode = 1;
                         result.Message = "OK";
