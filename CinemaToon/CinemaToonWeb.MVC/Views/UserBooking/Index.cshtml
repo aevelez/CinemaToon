@@ -18,7 +18,7 @@ else
                 <th>Function DateTime</th>
                 <th>Total Paid</th>
                 <th>Total Tickets</th>
-
+                <th>Theater Name</th>
             </tr>
 
         </thead>
@@ -26,9 +26,9 @@ else
             @foreach (var booking in Model)
             {
             <tr>
-                
-                <td> 
-                    <a asp-action="Details" asp-controller="UserBooking" asp-route-id="@booking.Id">Cancel</a> 
+
+                <td>
+                    <a asp-action="Details" asp-controller="UserBooking" asp-route-id="@booking.Id">Cancel</a>
                     <i class="glyphicon glyphicon-remove"></i>
                 </td>
 
@@ -36,6 +36,7 @@ else
                 <td>@booking.CinemaFunction.FunctionDateTime</td>
                 <td> @String.Format("{0:C0}", Convert.ToInt32(booking.TotalPaid))</td>
                 <td>@booking.TotalTickets</td>
+                <td>@booking.TheaterName</td>
             </tr>
             }
         </tbody>

@@ -19,11 +19,21 @@ namespace CinemaToon.Theaters.API.Controllers
             _theatersService = theatersService;
         }
 
-
         [HttpGet]
         public IActionResult Get()
         {
             return Ok(_theatersService.GetTheaters());
+        }
+
+        // GET api/originalTitle
+        [HttpGet("ReturnTheaterName/{TheaterId}")]
+        public IActionResult Get(int TheaterId)
+        {
+            if (TheaterId < 1)
+            {
+                return BadRequest();
+            }
+            return Ok(_theatersService.GetTheatersbyId(TheaterId));
         }
     }
 }

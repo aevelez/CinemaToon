@@ -7,7 +7,7 @@ services:
         com.microsoft.created-by: "visual-studio"
         com.microsoft.visual-studio.project-name: "CinemaToon.CinemaBooking.API"
     volumes:
-      - C:\Users\mgiraldo\onecoremsvsmon\16.3.0039.0:C:\remote_debugger:ro
+      - C:\Users\mgiraldo\onecoremsvsmon\16.3.0040.0:C:\remote_debugger:ro
       - ${APPDATA}/ASP.NET/Https:C:\Users\ContainerUser\AppData\Roaming\ASP.NET\Https:ro
       - ${APPDATA}/Microsoft/UserSecrets:C:\Users\ContainerUser\AppData\Roaming\Microsoft\UserSecrets:ro
 
@@ -24,7 +24,7 @@ services:
         com.microsoft.created-by: "visual-studio"
         com.microsoft.visual-studio.project-name: "CinemaToon.FakePaymentService.API"
     volumes:
-      - C:\Users\mgiraldo\onecoremsvsmon\16.3.0039.0:C:\remote_debugger:ro
+      - C:\Users\mgiraldo\onecoremsvsmon\16.3.0040.0:C:\remote_debugger:ro
       - ${APPDATA}/ASP.NET/Https:C:\Users\ContainerUser\AppData\Roaming\ASP.NET\Https:ro
       - ${APPDATA}/Microsoft/UserSecrets:C:\Users\ContainerUser\AppData\Roaming\Microsoft\UserSecrets:ro
 
@@ -42,7 +42,7 @@ services:
         com.microsoft.created-by: "visual-studio"
         com.microsoft.visual-studio.project-name: "CinemaToon.IdentityServer"
     volumes:
-      - C:\Users\mgiraldo\onecoremsvsmon\16.3.0039.0:C:\remote_debugger:ro
+      - C:\Users\mgiraldo\onecoremsvsmon\16.3.0040.0:C:\remote_debugger:ro
       - ${APPDATA}/ASP.NET/Https:C:\Users\ContainerUser\AppData\Roaming\ASP.NET\Https:ro
       - ${APPDATA}/Microsoft/UserSecrets:C:\Users\ContainerUser\AppData\Roaming\Microsoft\UserSecrets:ro
 
@@ -60,7 +60,7 @@ services:
         com.microsoft.created-by: "visual-studio"
         com.microsoft.visual-studio.project-name: "CinemaToon.Movies.API"
     volumes:
-      - C:\Users\mgiraldo\onecoremsvsmon\16.3.0039.0:C:\remote_debugger:ro
+      - C:\Users\mgiraldo\onecoremsvsmon\16.3.0040.0:C:\remote_debugger:ro
       - ${APPDATA}/ASP.NET/Https:C:\Users\ContainerUser\AppData\Roaming\ASP.NET\Https:ro
       - ${APPDATA}/Microsoft/UserSecrets:C:\Users\ContainerUser\AppData\Roaming\Microsoft\UserSecrets:ro
 
@@ -78,7 +78,7 @@ services:
         com.microsoft.created-by: "visual-studio"
         com.microsoft.visual-studio.project-name: "CinemaToon.Theaters.API"
     volumes:
-      - C:\Users\mgiraldo\onecoremsvsmon\16.3.0039.0:C:\remote_debugger:ro
+      - C:\Users\mgiraldo\onecoremsvsmon\16.3.0040.0:C:\remote_debugger:ro
       - ${APPDATA}/ASP.NET/Https:C:\Users\ContainerUser\AppData\Roaming\ASP.NET\Https:ro
       - ${APPDATA}/Microsoft/UserSecrets:C:\Users\ContainerUser\AppData\Roaming\Microsoft\UserSecrets:ro
 
@@ -96,7 +96,7 @@ services:
         com.microsoft.created-by: "visual-studio"
         com.microsoft.visual-studio.project-name: "CinemaToonWeb.MVC"
     volumes:
-      - C:\Users\mgiraldo\onecoremsvsmon\16.3.0039.0:C:\remote_debugger:ro
+      - C:\Users\mgiraldo\onecoremsvsmon\16.3.0040.0:C:\remote_debugger:ro
       - ${APPDATA}/ASP.NET/Https:C:\Users\ContainerUser\AppData\Roaming\ASP.NET\Https:ro
       - ${APPDATA}/Microsoft/UserSecrets:C:\Users\ContainerUser\AppData\Roaming\Microsoft\UserSecrets:ro
 

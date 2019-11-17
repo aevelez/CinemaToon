@@ -9,5 +9,7 @@ namespace CinemaToon.Utilities.Abstractions.Interfaces
     public interface ITheatersService
     {
         IEnumerable<Theater> GetTheaters();
+
+        string GetTheatersbyId(int theaterid);
     }
 }
