@@ -6,6 +6,11 @@
 trigger:
 - master
 
+- task: UseDotNet@2
+  inputs:
+    packageType: 'sdk'
+    version: '2.2'
+
 pool:
   vmImage: 'vs2017-win2016'
 
