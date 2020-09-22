@@ -30,3 +30,5 @@ C:\Users\mgiraldo\source\repos\CinemaToon\CinemaToon\CinemaToon.FakePaymentServi
 C:\Users\mgiraldo\source\repos\CinemaToon\CinemaToon\CinemaToon.FakePaymentService.API\obj\Debug\netcoreapp2.2\CinemaToon.FakePaymentService.API.RazorTargetAssemblyInfo.cache
 C:\Users\mgiraldo\source\repos\CinemaToon\CinemaToon\CinemaToon.FakePaymentService.API\obj\Debug\netcoreapp2.2\CinemaToon.FakePaymentService.API.dll
 C:\Users\mgiraldo\source\repos\CinemaToon\CinemaToon\CinemaToon.FakePaymentService.API\obj\Debug\netcoreapp2.2\CinemaToon.FakePaymentService.API.pdb
+C:\Users\avelez\source\repos\CinemaToon\CinemaToon\CinemaToon.FakePaymentService.API\obj\Debug\netcoreapp2.2\CinemaToon.FakePaymentService.API.csproj.CoreCompileInputs.cache
+C:\Users\avelez\source\repos\CinemaToon\CinemaToon\CinemaToon.FakePaymentService.API\obj\Debug\netcoreapp2.2\CinemaToon.FakePaymentService.API.genruntimeconfig.cache

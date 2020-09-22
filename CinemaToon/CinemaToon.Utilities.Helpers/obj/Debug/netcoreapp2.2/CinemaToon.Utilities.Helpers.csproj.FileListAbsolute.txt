@@ -24,3 +24,4 @@ C:\Users\mgiraldo\source\repos\CinemaToon\CinemaToon\CinemaToon.Utilities.Helper
 C:\Users\mgiraldo\source\repos\CinemaToon\CinemaToon\CinemaToon.Utilities.Helpers\obj\Debug\netcoreapp2.2\CinemaToon.Utilities.Helpers.csproj.CopyComplete
 C:\Users\mgiraldo\source\repos\CinemaToon\CinemaToon\CinemaToon.Utilities.Helpers\obj\Debug\netcoreapp2.2\CinemaToon.Utilities.Helpers.dll
 C:\Users\mgiraldo\source\repos\CinemaToon\CinemaToon\CinemaToon.Utilities.Helpers\obj\Debug\netcoreapp2.2\CinemaToon.Utilities.Helpers.pdb
+C:\Users\avelez\source\repos\CinemaToon\CinemaToon\CinemaToon.Utilities.Helpers\obj\Debug\netcoreapp2.2\CinemaToon.Utilities.Helpers.csproj.CoreCompileInputs.cache

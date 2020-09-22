@@ -99,3 +99,6 @@ C:\Users\mgiraldo\source\repos\CinemaToon\CinemaToon\CinemaToonWeb.MVC\obj\Debug
 C:\Users\mgiraldo\source\repos\CinemaToon\CinemaToon\CinemaToonWeb.MVC\obj\Debug\netcoreapp2.2\CinemaToonWeb.MVC.dll
 C:\Users\mgiraldo\source\repos\CinemaToon\CinemaToon\CinemaToonWeb.MVC\obj\Debug\netcoreapp2.2\CinemaToonWeb.MVC.pdb
 C:\Users\mgiraldo\source\repos\CinemaToon\CinemaToon\CinemaToonWeb.MVC\obj\Debug\netcoreapp2.2\Razor\Views\Movies\Theathers.cshtml.g.cs
+C:\Users\avelez\source\repos\CinemaToon\CinemaToon\CinemaToonWeb.MVC\obj\Debug\netcoreapp2.2\CinemaToonWeb.MVC.csproj.CoreCompileInputs.cache
+C:\Users\avelez\source\repos\CinemaToon\CinemaToon\CinemaToonWeb.MVC\obj\Debug\netcoreapp2.2\Razor\Views\Movies\Theathers.cshtml.g.cs
+C:\Users\avelez\source\repos\CinemaToon\CinemaToon\CinemaToonWeb.MVC\obj\Debug\netcoreapp2.2\CinemaToonWeb.MVC.genruntimeconfig.cache

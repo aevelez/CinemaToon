@@ -28,3 +28,5 @@ C:\Users\mgiraldo\source\repos\CinemaToon\CinemaToon\CinemaToon.IdentityServer.D
 C:\Users\mgiraldo\source\repos\CinemaToon\CinemaToon\CinemaToon.IdentityServer.Data.Context\obj\Debug\netcoreapp2.2\CinemaToon.IdentityServer.Data.Context.csproj.CopyComplete
 C:\Users\mgiraldo\source\repos\CinemaToon\CinemaToon\CinemaToon.IdentityServer.Data.Context\obj\Debug\netcoreapp2.2\CinemaToon.IdentityServer.Data.Context.dll
 C:\Users\mgiraldo\source\repos\CinemaToon\CinemaToon\CinemaToon.IdentityServer.Data.Context\obj\Debug\netcoreapp2.2\CinemaToon.IdentityServer.Data.Context.pdb
+C:\Users\avelez\source\repos\CinemaToon\CinemaToon\CinemaToon.IdentityServer.Data.Context\obj\Debug\netcoreapp2.2\CinemaToon.IdentityServer.Data.Context.csproj.CoreCompileInputs.cache
+C:\Users\avelez\source\repos\CinemaToon\CinemaToon\CinemaToon.IdentityServer.Data.Context\obj\Debug\netcoreapp2.2\CinemaToon.IdentityServer.Data.Context.genruntimeconfig.cache

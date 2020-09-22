@@ -5,7 +5,6 @@ C:\Users\avelez\source\repos\CinemaToon\CinemaToon\CinemaToon.Entities\obj\Debug
 C:\Users\avelez\source\repos\CinemaToon\CinemaToon\CinemaToon.Entities\obj\Debug\netcoreapp2.2\CinemaToon.Entities.AssemblyInfo.cs
 C:\Users\avelez\source\repos\CinemaToon\CinemaToon\CinemaToon.Entities\obj\Debug\netcoreapp2.2\CinemaToon.Entities.dll
 C:\Users\avelez\source\repos\CinemaToon\CinemaToon\CinemaToon.Entities\obj\Debug\netcoreapp2.2\CinemaToon.Entities.pdb
-C:\Users\avelez\source\repos\CinemaToon\CinemaToon\CinemaToon.Entities\obj\Debug\netcoreapp2.2\CinemaToon.Entities.csprojAssemblyReference.cache
 C:\Users\mgiraldo\source\repos\CinemaToon\CinemaToon\CinemaToon.Entities\bin\Debug\netcoreapp2.2\CinemaToon.Entities.deps.json
 C:\Users\mgiraldo\source\repos\CinemaToon\CinemaToon\CinemaToon.Entities\bin\Debug\netcoreapp2.2\CinemaToon.Entities.dll
 C:\Users\mgiraldo\source\repos\CinemaToon\CinemaToon\CinemaToon.Entities\bin\Debug\netcoreapp2.2\CinemaToon.Entities.pdb
@@ -14,3 +13,4 @@ C:\Users\mgiraldo\source\repos\CinemaToon\CinemaToon\CinemaToon.Entities\obj\Deb
 C:\Users\mgiraldo\source\repos\CinemaToon\CinemaToon\CinemaToon.Entities\obj\Debug\netcoreapp2.2\CinemaToon.Entities.AssemblyInfo.cs
 C:\Users\mgiraldo\source\repos\CinemaToon\CinemaToon\CinemaToon.Entities\obj\Debug\netcoreapp2.2\CinemaToon.Entities.dll
 C:\Users\mgiraldo\source\repos\CinemaToon\CinemaToon\CinemaToon.Entities\obj\Debug\netcoreapp2.2\CinemaToon.Entities.pdb
+C:\Users\avelez\source\repos\CinemaToon\CinemaToon\CinemaToon.Entities\obj\Debug\netcoreapp2.2\CinemaToon.Entities.csproj.CoreCompileInputs.cache

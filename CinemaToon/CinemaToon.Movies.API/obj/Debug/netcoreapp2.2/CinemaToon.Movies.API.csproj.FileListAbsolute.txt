@@ -48,3 +48,5 @@ C:\Users\mgiraldo\source\repos\CinemaToon\CinemaToon\CinemaToon.Movies.API\obj\D
 C:\Users\mgiraldo\source\repos\CinemaToon\CinemaToon\CinemaToon.Movies.API\obj\Debug\netcoreapp2.2\CinemaToon.Movies.API.csproj.CopyComplete
 C:\Users\mgiraldo\source\repos\CinemaToon\CinemaToon\CinemaToon.Movies.API\obj\Debug\netcoreapp2.2\CinemaToon.Movies.API.dll
 C:\Users\mgiraldo\source\repos\CinemaToon\CinemaToon\CinemaToon.Movies.API\obj\Debug\netcoreapp2.2\CinemaToon.Movies.API.pdb
+C:\Users\avelez\source\repos\CinemaToon\CinemaToon\CinemaToon.Movies.API\obj\Debug\netcoreapp2.2\CinemaToon.Movies.API.csproj.CoreCompileInputs.cache
+C:\Users\avelez\source\repos\CinemaToon\CinemaToon\CinemaToon.Movies.API\obj\Debug\netcoreapp2.2\CinemaToon.Movies.API.genruntimeconfig.cache

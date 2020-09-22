@@ -1,10 +1,6 @@
-C:\Users\avelez\source\repos\CinemaToon\CinemaToon\bin\Debug\CinemaToonWeb.MVC.Views.dll
-C:\Users\avelez\source\repos\CinemaToon\CinemaToon\bin\Debug\CinemaToonWeb.MVC.Views.pdb
 C:\Users\avelez\source\repos\CinemaToon\CinemaToon\bin\Debug\appsettings.Development.json
 C:\Users\avelez\source\repos\CinemaToon\CinemaToon\bin\Debug\appsettings.json
 C:\Users\avelez\source\repos\CinemaToon\CinemaToon\bin\Debug\Properties\launchSettings.json
-C:\Users\avelez\source\repos\CinemaToon\CinemaToon\bin\Debug\CinemaToon.IdentityServer.Views.dll
-C:\Users\avelez\source\repos\CinemaToon\CinemaToon\bin\Debug\CinemaToon.IdentityServer.Views.pdb
 C:\Users\avelez\source\repos\CinemaToon\CinemaToon\bin\Debug\CinemaToon.CinemaBooking.API.dll
 C:\Users\avelez\source\repos\CinemaToon\CinemaToon\bin\Debug\CinemaToon.FakePaymentService.API.dll
 C:\Users\avelez\source\repos\CinemaToon\CinemaToon\bin\Debug\CinemaToon.IdentityServer.dll
@@ -70,3 +66,14 @@ C:\Users\mgiraldo\source\repos\CinemaToon\CinemaToon\bin\Debug\CinemaToon.Theate
 C:\Users\mgiraldo\source\repos\CinemaToon\CinemaToon\bin\Debug\CinemaToon.Theaters.Application.Core.pdb
 C:\Users\mgiraldo\source\repos\CinemaToon\CinemaToon\obj\Debug\docker-compose.dcprojAssemblyReference.cache
 C:\Users\mgiraldo\source\repos\CinemaToon\CinemaToon\obj\Debug\docker-compose.dcproj.CopyComplete
+C:\Users\avelez\source\repos\CinemaToon\CinemaToon\bin\Debug\CinemaToon.Theaters.API.dll
+C:\Users\avelez\source\repos\CinemaToon\CinemaToon\bin\Debug\CinemaToon.Theaters.Data.Context.dll
+C:\Users\avelez\source\repos\CinemaToon\CinemaToon\bin\Debug\CinemaToon.Theaters.Application.Core.dll
+C:\Users\avelez\source\repos\CinemaToon\CinemaToon\bin\Debug\CinemaToon.Theaters.API.pdb
+C:\Users\avelez\source\repos\CinemaToon\CinemaToon\bin\Debug\CinemaToon.Theaters.Data.Context.pdb
+C:\Users\avelez\source\repos\CinemaToon\CinemaToon\bin\Debug\CinemaToon.Theaters.Application.Core.pdb
+C:\Users\avelez\source\repos\CinemaToon\CinemaToon\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
+C:\Users\avelez\source\repos\CinemaToon\CinemaToon\bin\Debug\CinemaToonWeb.MVC.Views.dll
+C:\Users\avelez\source\repos\CinemaToon\CinemaToon\bin\Debug\CinemaToonWeb.MVC.Views.pdb
+C:\Users\avelez\source\repos\CinemaToon\CinemaToon\bin\Debug\CinemaToon.IdentityServer.Views.dll
+C:\Users\avelez\source\repos\CinemaToon\CinemaToon\bin\Debug\CinemaToon.IdentityServer.Views.pdb

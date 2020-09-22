@@ -52,3 +52,5 @@ C:\Users\mgiraldo\source\repos\CinemaToon\CinemaToon\CinemaToon.CinemaBooking.AP
 C:\Users\mgiraldo\source\repos\CinemaToon\CinemaToon\CinemaToon.CinemaBooking.API\obj\Debug\netcoreapp2.2\CinemaToon.CinemaBooking.API.csproj.CopyComplete
 C:\Users\mgiraldo\source\repos\CinemaToon\CinemaToon\CinemaToon.CinemaBooking.API\obj\Debug\netcoreapp2.2\CinemaToon.CinemaBooking.API.dll
 C:\Users\mgiraldo\source\repos\CinemaToon\CinemaToon\CinemaToon.CinemaBooking.API\obj\Debug\netcoreapp2.2\CinemaToon.CinemaBooking.API.pdb
+C:\Users\avelez\source\repos\CinemaToon\CinemaToon\CinemaToon.CinemaBooking.API\obj\Debug\netcoreapp2.2\CinemaToon.CinemaBooking.API.csproj.CoreCompileInputs.cache
+C:\Users\avelez\source\repos\CinemaToon\CinemaToon\CinemaToon.CinemaBooking.API\obj\Debug\netcoreapp2.2\CinemaToon.CinemaBooking.API.genruntimeconfig.cache

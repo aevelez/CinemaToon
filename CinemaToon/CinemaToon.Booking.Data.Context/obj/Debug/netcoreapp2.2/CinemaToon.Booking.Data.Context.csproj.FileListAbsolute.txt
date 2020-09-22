@@ -24,3 +24,5 @@ C:\Users\mgiraldo\source\repos\CinemaToon\CinemaToon\CinemaToon.Booking.Data.Con
 C:\Users\mgiraldo\source\repos\CinemaToon\CinemaToon\CinemaToon.Booking.Data.Context\obj\Debug\netcoreapp2.2\CinemaToon.Booking.Data.Context.csproj.CopyComplete
 C:\Users\mgiraldo\source\repos\CinemaToon\CinemaToon\CinemaToon.Booking.Data.Context\obj\Debug\netcoreapp2.2\CinemaToon.Booking.Data.Context.dll
 C:\Users\mgiraldo\source\repos\CinemaToon\CinemaToon\CinemaToon.Booking.Data.Context\obj\Debug\netcoreapp2.2\CinemaToon.Booking.Data.Context.pdb
+C:\Users\avelez\source\repos\CinemaToon\CinemaToon\CinemaToon.Booking.Data.Context\obj\Debug\netcoreapp2.2\CinemaToon.Booking.Data.Context.csproj.CoreCompileInputs.cache
+C:\Users\avelez\source\repos\CinemaToon\CinemaToon\CinemaToon.Booking.Data.Context\obj\Debug\netcoreapp2.2\CinemaToon.Booking.Data.Context.genruntimeconfig.cache

@@ -92,3 +92,5 @@ C:\Users\mgiraldo\source\repos\CinemaToon\CinemaToon\CinemaToon.IdentityServer\o
 C:\Users\mgiraldo\source\repos\CinemaToon\CinemaToon\CinemaToon.IdentityServer\obj\Debug\netcoreapp2.2\CinemaToon.IdentityServer.csproj.CopyComplete
 C:\Users\mgiraldo\source\repos\CinemaToon\CinemaToon\CinemaToon.IdentityServer\obj\Debug\netcoreapp2.2\CinemaToon.IdentityServer.dll
 C:\Users\mgiraldo\source\repos\CinemaToon\CinemaToon\CinemaToon.IdentityServer\obj\Debug\netcoreapp2.2\CinemaToon.IdentityServer.pdb
+C:\Users\avelez\source\repos\CinemaToon\CinemaToon\CinemaToon.IdentityServer\obj\Debug\netcoreapp2.2\CinemaToon.IdentityServer.csproj.CoreCompileInputs.cache
+C:\Users\avelez\source\repos\CinemaToon\CinemaToon\CinemaToon.IdentityServer\obj\Debug\netcoreapp2.2\CinemaToon.IdentityServer.genruntimeconfig.cache

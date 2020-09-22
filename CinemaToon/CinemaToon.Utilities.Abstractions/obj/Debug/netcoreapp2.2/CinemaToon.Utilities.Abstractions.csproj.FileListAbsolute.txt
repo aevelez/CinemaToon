@@ -20,3 +20,4 @@ C:\Users\mgiraldo\source\repos\CinemaToon\CinemaToon\CinemaToon.Utilities.Abstra
 C:\Users\mgiraldo\source\repos\CinemaToon\CinemaToon\CinemaToon.Utilities.Abstractions\obj\Debug\netcoreapp2.2\CinemaToon.Utilities.Abstractions.csproj.CopyComplete
 C:\Users\mgiraldo\source\repos\CinemaToon\CinemaToon\CinemaToon.Utilities.Abstractions\obj\Debug\netcoreapp2.2\CinemaToon.Utilities.Abstractions.dll
 C:\Users\mgiraldo\source\repos\CinemaToon\CinemaToon\CinemaToon.Utilities.Abstractions\obj\Debug\netcoreapp2.2\CinemaToon.Utilities.Abstractions.pdb
+C:\Users\avelez\source\repos\CinemaToon\CinemaToon\CinemaToon.Utilities.Abstractions\obj\Debug\netcoreapp2.2\CinemaToon.Utilities.Abstractions.csproj.CoreCompileInputs.cache
