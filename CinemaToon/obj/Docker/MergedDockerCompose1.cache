@@ -34,7 +34,7 @@ services:
     - C:\Users\mgiraldo\AppData\Roaming\ASP.NET\Https:C:\Users\ContainerUser\AppData\Roaming\ASP.NET\Https:ro
     - C:\Users\mgiraldo\AppData\Roaming\Microsoft\UserSecrets:C:\Users\ContainerUser\AppData\Roaming\Microsoft\UserSecrets:ro
     - C:\Users\mgiraldo\source\repos\CinemaToon\CinemaToon\CinemaToon.CinemaBooking.API:C:\app:rw
-    - C:\Users\mgiraldo\onecoremsvsmon\16.3.0039.0:C:\remote_debugger:ro
+    - C:\Users\mgiraldo\onecoremsvsmon\16.3.0040.0:C:\remote_debugger:ro
     - C:\Users\mgiraldo\source\repos\CinemaToon\CinemaToon:C:\src:rw
     - C:\Microsoft\Xamarin\NuGet:c:\.nuget\fallbackpackages:ro
     - C:\Program Files\dotnet\sdk\NuGetFallbackFolder:c:\.nuget\fallbackpackages2:ro
@@ -70,7 +70,7 @@ services:
     - C:\Users\mgiraldo\AppData\Roaming\ASP.NET\Https:C:\Users\ContainerUser\AppData\Roaming\ASP.NET\Https:ro
     - C:\Users\mgiraldo\AppData\Roaming\Microsoft\UserSecrets:C:\Users\ContainerUser\AppData\Roaming\Microsoft\UserSecrets:ro
     - C:\Users\mgiraldo\source\repos\CinemaToon\CinemaToon\CinemaToon.FakePaymentService.API:C:\app:rw
-    - C:\Users\mgiraldo\onecoremsvsmon\16.3.0039.0:C:\remote_debugger:ro
+    - C:\Users\mgiraldo\onecoremsvsmon\16.3.0040.0:C:\remote_debugger:ro
     - C:\Users\mgiraldo\source\repos\CinemaToon\CinemaToon:C:\src:rw
     - C:\Microsoft\Xamarin\NuGet:c:\.nuget\fallbackpackages:ro
     - C:\Program Files\dotnet\sdk\NuGetFallbackFolder:c:\.nuget\fallbackpackages2:ro
@@ -106,7 +106,7 @@ services:
     - C:\Users\mgiraldo\AppData\Roaming\ASP.NET\Https:C:\Users\ContainerUser\AppData\Roaming\ASP.NET\Https:ro
     - C:\Users\mgiraldo\AppData\Roaming\Microsoft\UserSecrets:C:\Users\ContainerUser\AppData\Roaming\Microsoft\UserSecrets:ro
     - C:\Users\mgiraldo\source\repos\CinemaToon\CinemaToon\CinemaToon.IdentityServer:C:\app:rw
-    - C:\Users\mgiraldo\onecoremsvsmon\16.3.0039.0:C:\remote_debugger:ro
+    - C:\Users\mgiraldo\onecoremsvsmon\16.3.0040.0:C:\remote_debugger:ro
     - C:\Users\mgiraldo\source\repos\CinemaToon\CinemaToon:C:\src:rw
     - C:\Microsoft\Xamarin\NuGet:c:\.nuget\fallbackpackages:ro
     - C:\Program Files\dotnet\sdk\NuGetFallbackFolder:c:\.nuget\fallbackpackages2:ro
@@ -142,7 +142,7 @@ services:
     - C:\Users\mgiraldo\AppData\Roaming\ASP.NET\Https:C:\Users\ContainerUser\AppData\Roaming\ASP.NET\Https:ro
     - C:\Users\mgiraldo\AppData\Roaming\Microsoft\UserSecrets:C:\Users\ContainerUser\AppData\Roaming\Microsoft\UserSecrets:ro
     - C:\Users\mgiraldo\source\repos\CinemaToon\CinemaToon\CinemaToon.Movies.API:C:\app:rw
-    - C:\Users\mgiraldo\onecoremsvsmon\16.3.0039.0:C:\remote_debugger:ro
+    - C:\Users\mgiraldo\onecoremsvsmon\16.3.0040.0:C:\remote_debugger:ro
     - C:\Users\mgiraldo\source\repos\CinemaToon\CinemaToon:C:\src:rw
     - C:\Microsoft\Xamarin\NuGet:c:\.nuget\fallbackpackages:ro
     - C:\Program Files\dotnet\sdk\NuGetFallbackFolder:c:\.nuget\fallbackpackages2:ro
@@ -178,7 +178,7 @@ services:
     - C:\Users\mgiraldo\AppData\Roaming\ASP.NET\Https:C:\Users\ContainerUser\AppData\Roaming\ASP.NET\Https:ro
     - C:\Users\mgiraldo\AppData\Roaming\Microsoft\UserSecrets:C:\Users\ContainerUser\AppData\Roaming\Microsoft\UserSecrets:ro
     - C:\Users\mgiraldo\source\repos\CinemaToon\CinemaToon.Theaters.API:C:\app:rw
-    - C:\Users\mgiraldo\onecoremsvsmon\16.3.0039.0:C:\remote_debugger:ro
+    - C:\Users\mgiraldo\onecoremsvsmon\16.3.0040.0:C:\remote_debugger:ro
     - C:\Users\mgiraldo\source\repos\CinemaToon\CinemaToon:C:\src:rw
     - C:\Microsoft\Xamarin\NuGet:c:\.nuget\fallbackpackages:ro
     - C:\Program Files\dotnet\sdk\NuGetFallbackFolder:c:\.nuget\fallbackpackages2:ro
@@ -214,7 +214,7 @@ services:
     - C:\Users\mgiraldo\AppData\Roaming\ASP.NET\Https:C:\Users\ContainerUser\AppData\Roaming\ASP.NET\Https:ro
     - C:\Users\mgiraldo\AppData\Roaming\Microsoft\UserSecrets:C:\Users\ContainerUser\AppData\Roaming\Microsoft\UserSecrets:ro
     - C:\Users\mgiraldo\source\repos\CinemaToon\CinemaToon\CinemaToonWeb.MVC:C:\app:rw
-    - C:\Users\mgiraldo\onecoremsvsmon\16.3.0039.0:C:\remote_debugger:ro
+    - C:\Users\mgiraldo\onecoremsvsmon\16.3.0040.0:C:\remote_debugger:ro
     - C:\Users\mgiraldo\source\repos\CinemaToon\CinemaToon:C:\src:rw
     - C:\Microsoft\Xamarin\NuGet:c:\.nuget\fallbackpackages:ro
     - C:\Program Files\dotnet\sdk\NuGetFallbackFolder:c:\.nuget\fallbackpackages2:ro

@@ -22,5 +22,10 @@ namespace CinemaToon.Theaters.Application.Core
         {
             return _context.Theater.ToList();
         }
+
+        public string GetTheatersbyId(int theaterid)
+        {
+            return  _context.Theater.Where(x => x.Id == theaterid).FirstOrDefault().Name;
+        }
     }
 }

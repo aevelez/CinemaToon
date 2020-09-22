@@ -4,6 +4,7 @@ using System.Diagnostics;
 using System.Threading.Tasks;
 using CinemaToon.Entities.CinemaBooking;
 using CinemaToon.Entities.DTOs;
+using CinemaToon.Entities.Theaters;
 using CinemaToon.Utilities.Abstractions.Interfaces;
 using CinemaToon.Web.MVC.Models;
 using Microsoft.AspNetCore.Authorization;
@@ -32,9 +33,13 @@ namespace CinemaToon.Web.MVC.Controllers
             {
                 bookings = await _apiClient.GetAsync<IEnumerable<CinemaReservation>>
                     (new Uri($"{_configuration["Booking:BaseUrl"]}{_configuration["Booking:MethodBooking"]}{User.FindFirst(x => x.Type == "sub").Value}"));
+                foreach (var item in bookings)
+                {
+                    item.TheaterName = GetTheaters(item.TheaterId);
+                }
                 return View(bookings);
             }
-            catch (Exception)
+            catch (Exception ex)
             {
                 return View("Error", new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
             }
@@ -64,6 +69,9 @@ namespace CinemaToon.Web.MVC.Controllers
             return View("Error", new ErrorViewModel());
         }
 
-
+        private string GetTheaters(int id)
+        {
+            return _apiClient.Get(new Uri($"{_configuration["Theaters:BaseUrl"]}{_configuration["Theaters:MethodTheaterName"]}{id}"));
+        }
     }
 }
