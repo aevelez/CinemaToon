@@ -6,13 +6,10 @@
 trigger:
 - master
 
-- task: UseDotNet@2
-  inputs:
-    packageType: 'sdk'
-    version: '2.2'
-
 pool:
   vmImage: 'vs2017-win2016'
+
+
 
 variables:
   solution: '**/*.sln'
@@ -21,7 +18,10 @@ variables:
 
 steps:
 - task: NuGetToolInstaller@1
-
+- task: UseDotNet@2
+  inputs:
+    packageType: 'sdk'
+    version: '2.2'
 - task: NuGetCommand@2
   inputs:
     restoreSolution: '$(solution)'
